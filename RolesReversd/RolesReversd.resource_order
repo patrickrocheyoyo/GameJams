@@ -1,0 +1,11 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"s64wall","order":2,"path":"sprites/s64wall/s64wall.yy",},
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"sPlayer","order":3,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
+  ],
+}
