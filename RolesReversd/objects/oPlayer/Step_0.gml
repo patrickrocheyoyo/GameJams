@@ -8,11 +8,25 @@ var jump = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_space);
 
 
 if(left){
-	x -= movespd;
+	if(place_meeting(x-movespd,y, oWall)){
+		while(!place_meeting(x-1,y,oWall)){
+			x-=1;
+		}				
+	}
+	else{
+		x -= movespd;
+	}
 }
 
 if(right){
-	x += movespd;
+	if(place_meeting(x+movespd,y, oWall)){
+		while(!place_meeting(x+1,y,oWall)){
+			x+=1;
+		}				
+	}
+	else{
+		x += movespd;
+	}
 }
 
 if(jump){
