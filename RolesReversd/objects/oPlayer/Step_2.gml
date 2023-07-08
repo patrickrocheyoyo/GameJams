@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 if(place_meeting(x,y+yspd, oCollideParents)){
-	while(!place_meeting(x,y+1,oCollideParents)){
-		y+=1;
+	while(!place_meeting(x,y+yspd,oCollideParents)){
+		y+=yspd;
 	}				
 }
 else{
