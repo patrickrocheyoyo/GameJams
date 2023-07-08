@@ -1,9 +1,19 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Audio","order":5,"path":"folders/Audio.yy",},
+    {"name":"Objects","order":6,"path":"folders/Objects.yy",},
+    {"name":"pickups","order":7,"path":"folders/pickups.yy",},
+    {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":9,"path":"folders/Sprites.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"s64wall","order":4,"path":"sprites/s64wall/s64wall.yy",},
     {"name":"oSlippyWall","order":1,"path":"objects/oSlippyWall/oSlippyWall.yy",},
+    {"name":"sButtonNew","order":15,"path":"sprites/sButtonNew/sButtonNew.yy",},
     {"name":"oButtonMainMenu119","order":3,"path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},
+    {"name":"oCollideParent","order":10,"path":"objects/oCollideParent/oCollideParent.yy",},
     {"name":"rEndGame","order":1,"path":"rooms/rEndGame/rEndGame.yy",},
+    {"name":"fIntro","order":14,"path":"fonts/fIntro/fIntro.yy",},
     {"name":"oButtonReplay","order":5,"path":"objects/oButtonReplay/oButtonReplay.yy",},
     {"name":"oPit","order":4,"path":"objects/oPit/oPit.yy",},
     {"name":"sqIntro","order":1,"path":"sequences/sqIntro/sqIntro.yy",},

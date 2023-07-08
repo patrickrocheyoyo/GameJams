@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sButton",
-    "path": "sprites/sButton/sButton.yy",
+    "name": "sButtonNew",
+    "path": "sprites/sButtonNew/sButtonNew.yy",
   },
   "spriteMaskId": null,
   "visible": true,
