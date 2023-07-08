@@ -3,13 +3,18 @@
 
 
 
-xspd = 0;
+
 yspd = 0;
 
-movespd = 6;
+maxmovespd = 6;
+moveacc = 1;
+movespd = 0;
+
+
 fallspd = 1;
 jumppower = -20;
 
-onGround = false;
-
 jumps = 2;
+
+onGround = false;
+isSliding = false;
