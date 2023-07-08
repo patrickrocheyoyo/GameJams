@@ -5,6 +5,7 @@
     {"name":"pickups","order":7,"path":"folders/pickups.yy",},
     {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
     {"name":"Sprites","order":9,"path":"folders/Sprites.yy",},
+    {"name":"player character","order":1,"path":"folders/Sprites/Backgrounds/player character.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s64wall","order":4,"path":"sprites/s64wall/s64wall.yy",},
@@ -16,6 +17,7 @@
     {"name":"fIntro","order":14,"path":"fonts/fIntro/fIntro.yy",},
     {"name":"oButtonReplay","order":5,"path":"objects/oButtonReplay/oButtonReplay.yy",},
     {"name":"oPit","order":4,"path":"objects/oPit/oPit.yy",},
+    {"name":"spr_player_run","order":1,"path":"sprites/spr_player_run/spr_player_run.yy",},
     {"name":"sqIntro","order":1,"path":"sequences/sqIntro/sqIntro.yy",},
     {"name":"sExitDoor","order":3,"path":"sprites/sExitDoor/sExitDoor.yy",},
     {"name":"sqPauseMenu","order":2,"path":"sequences/sqPauseMenu/sqPauseMenu.yy",},
