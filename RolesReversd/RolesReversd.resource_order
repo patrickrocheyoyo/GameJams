@@ -1,11 +1,23 @@
 {
   "FolderOrderSettings": [
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
+    {"name":"Tilesets","order":1,"path":"folders/Sprites/Tilesets.yy",},
+    {"name":"Audio","order":5,"path":"folders/Audio.yy",},
+    {"name":"Backgrounds","order":3,"path":"folders/Sprites/Backgrounds.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s64wall","order":2,"path":"sprites/s64wall/s64wall.yy",},
+    {"name":"rm_testRoom","order":1,"path":"rooms/rm_testRoom/rm_testRoom.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"s_bgFire_5","order":5,"path":"sprites/s_bgFire_5/s_bgFire_5.yy",},
+    {"name":"sFlameTileset","order":1,"path":"sprites/sFlameTileset/sFlameTileset.yy",},
+    {"name":"obj_levelSkip","order":3,"path":"objects/obj_levelSkip/obj_levelSkip.yy",},
+    {"name":"s_bgFire_6","order":6,"path":"sprites/s_bgFire_6/s_bgFire_6.yy",},
     {"name":"sPlayer","order":3,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
+    {"name":"s_bgFire_2","order":2,"path":"sprites/s_bgFire_2/s_bgFire_2.yy",},
+    {"name":"s_bgFire_1","order":1,"path":"sprites/s_bgFire_1/s_bgFire_1.yy",},
+    {"name":"s_bgFire_3","order":3,"path":"sprites/s_bgFire_3/s_bgFire_3.yy",},
   ],
 }
