@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+<<<<<<< Updated upstream
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
     {"name":"Tilesets","order":1,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Audio","order":5,"path":"folders/Audio.yy",},
@@ -14,10 +15,27 @@
     {"name":"sFlameTileset","order":1,"path":"sprites/sFlameTileset/sFlameTileset.yy",},
     {"name":"obj_levelSkip","order":3,"path":"objects/obj_levelSkip/obj_levelSkip.yy",},
     {"name":"s_bgFire_6","order":6,"path":"sprites/s_bgFire_6/s_bgFire_6.yy",},
+=======
+    {"name":"UI","order":6,"path":"folders/Objects/UI.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"s64wall","order":2,"path":"sprites/s64wall/s64wall.yy",},
+    {"name":"oButtonStart","order":2,"path":"objects/oButtonStart/oButtonStart.yy",},
+    {"name":"sqPauseMenu","order":6,"path":"sequences/sqPauseMenu/sqPauseMenu.yy",},
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oButtonQuit","order":1,"path":"objects/oButtonQuit/oButtonQuit.yy",},
+    {"name":"rMainMenu","order":1,"path":"rooms/rMainMenu/rMainMenu.yy",},
+>>>>>>> Stashed changes
     {"name":"sPlayer","order":3,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sButton","order":4,"path":"sprites/sButton/sButton.yy",},
+    {"name":"oPauseMenu","order":3,"path":"objects/oPauseMenu/oPauseMenu.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
+<<<<<<< Updated upstream
     {"name":"s_bgFire_2","order":2,"path":"sprites/s_bgFire_2/s_bgFire_2.yy",},
     {"name":"s_bgFire_1","order":1,"path":"sprites/s_bgFire_1/s_bgFire_1.yy",},
     {"name":"s_bgFire_3","order":3,"path":"sprites/s_bgFire_3/s_bgFire_3.yy",},
+=======
+    {"name":"fPlaceholder","order":5,"path":"fonts/fPlaceholder/fPlaceholder.yy",},
+>>>>>>> Stashed changes
   ],
 }

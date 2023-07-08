@@ -13,10 +13,14 @@
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+<<<<<<< Updated upstream
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Sprites/Tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Audio","folderPath":"folders/Audio.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy",},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Objects/UI.yy",},
+>>>>>>> Stashed changes
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -26,6 +30,7 @@
   },
   "resources": [
     {"id":{"name":"s64wall","path":"sprites/s64wall/s64wall.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"rm_testRoom","path":"rooms/rm_testRoom/rm_testRoom.yy",},},
     {"id":{"name":"oCollideParent","path":"objects/oCollideParent/oCollideParent.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -35,14 +40,30 @@
     {"id":{"name":"tsPlatforms","path":"tilesets/tsPlatforms/tsPlatforms.yy",},},
     {"id":{"name":"obj_levelSkip","path":"objects/obj_levelSkip/obj_levelSkip.yy",},},
     {"id":{"name":"s_bgFire_6","path":"sprites/s_bgFire_6/s_bgFire_6.yy",},},
+=======
+    {"id":{"name":"oButtonStart","path":"objects/oButtonStart/oButtonStart.yy",},},
+    {"id":{"name":"sqPauseMenu","path":"sequences/sqPauseMenu/sqPauseMenu.yy",},},
+    {"id":{"name":"oCollideParent","path":"objects/oCollideParent/oCollideParent.yy",},},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oButtonQuit","path":"objects/oButtonQuit/oButtonQuit.yy",},},
+    {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
+    {"id":{"name":"oPauseMenu","path":"objects/oPauseMenu/oPauseMenu.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"s_bgFire_2","path":"sprites/s_bgFire_2/s_bgFire_2.yy",},},
     {"id":{"name":"s_bgFire_1","path":"sprites/s_bgFire_1/s_bgFire_1.yy",},},
     {"id":{"name":"s_bgFire_3","path":"sprites/s_bgFire_3/s_bgFire_3.yy",},},
+=======
+    {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},},
+    {"id":{"name":"fPlaceholder","path":"fonts/fPlaceholder/fPlaceholder.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_testRoom","path":"rooms/rm_testRoom/rm_testRoom.yy",},},
   ],
