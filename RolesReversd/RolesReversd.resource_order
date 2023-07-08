@@ -5,9 +5,13 @@
     {"name":"oButtonMainMenu119","order":3,"path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},
     {"name":"rEndGame","order":1,"path":"rooms/rEndGame/rEndGame.yy",},
     {"name":"oButtonReplay","order":5,"path":"objects/oButtonReplay/oButtonReplay.yy",},
+    {"name":"oPit","order":4,"path":"objects/oPit/oPit.yy",},
     {"name":"sqIntro","order":1,"path":"sequences/sqIntro/sqIntro.yy",},
+    {"name":"sExitDoor","order":3,"path":"sprites/sExitDoor/sExitDoor.yy",},
     {"name":"sqPauseMenu","order":2,"path":"sequences/sqPauseMenu/sqPauseMenu.yy",},
+    {"name":"oExitDoorStatic","order":2,"path":"objects/oExitDoorStatic/oExitDoorStatic.yy",},
     {"name":"oButtonResume120","order":4,"path":"objects/oButtonResume120/oButtonResume120.yy",},
     {"name":"s64slippywall","order":3,"path":"sprites/s64slippywall/s64slippywall.yy",},
+    {"name":"sPit","order":5,"path":"sprites/sPit/sPit.yy",},
   ],
 }
