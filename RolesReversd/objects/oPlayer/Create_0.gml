@@ -6,15 +6,26 @@
 
 yspd = 0;
 
-maxmovespd = 6;
-moveacc = 1;
-movespd = 0;
+maxMoveSpd = 6;
+moveAcc = 1;
+moveSpd = 0;
 
+dashing = false;
+stomping = false;
 
-fallspd = 1;
-jumppower = -20;
+fallSpd = 1;
+jumpPower = -20;
 
 jumps = 2;
 
 onGround = false;
 isSliding = false;
+
+image_speed = 0;
+image_index = 0;
+
+
+function cancelDash(){
+	dashing = false;
+}
+
