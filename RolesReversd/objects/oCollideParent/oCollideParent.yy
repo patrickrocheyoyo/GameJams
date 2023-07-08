@@ -5,6 +5,10 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
+  "parent": {
+    "name": "RolesReversd",
+    "path": "RolesReversd.yyp",
+  },
   "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,

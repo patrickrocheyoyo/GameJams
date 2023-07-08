@@ -8,3 +8,5 @@ function action(){
 	instance_destroy();
 	
 }
+
+drawMe = true;

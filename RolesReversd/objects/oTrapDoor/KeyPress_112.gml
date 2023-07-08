@@ -2,6 +2,4 @@
 // You can write your code in this editor
 
 
-drawMe = true;
-
-
+//do nothing
