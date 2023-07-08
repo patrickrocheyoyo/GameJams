@@ -41,7 +41,9 @@
     {"id":{"name":"oButtonMainMenu119","path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},},
     {"id":{"name":"oButtonStart","path":"objects/oButtonStart/oButtonStart.yy",},},
     {"id":{"name":"oCollideParent","path":"objects/oCollideParent/oCollideParent.yy",},},
+    {"id":{"name":"rEndGame","path":"rooms/rEndGame/rEndGame.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oButtonReplay","path":"objects/oButtonReplay/oButtonReplay.yy",},},
     {"id":{"name":"oButtonQuit","path":"objects/oButtonQuit/oButtonQuit.yy",},},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"id":{"name":"oOpenTrapDoor","path":"objects/oOpenTrapDoor/oOpenTrapDoor.yy",},},
@@ -77,6 +79,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {"roomId":{"name":"rEndGame","path":"rooms/rEndGame/rEndGame.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_testRoom","path":"rooms/rm_testRoom/rm_testRoom.yy",},},
     {"roomId":{"name":"rIntro","path":"rooms/rIntro/rIntro.yy",},},

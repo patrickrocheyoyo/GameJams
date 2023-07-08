@@ -3,6 +3,8 @@
   "ResourceOrderSettings": [
     {"name":"oSlippyWall","order":1,"path":"objects/oSlippyWall/oSlippyWall.yy",},
     {"name":"oButtonMainMenu119","order":3,"path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},
+    {"name":"rEndGame","order":1,"path":"rooms/rEndGame/rEndGame.yy",},
+    {"name":"oButtonReplay","order":5,"path":"objects/oButtonReplay/oButtonReplay.yy",},
     {"name":"sqIntro","order":1,"path":"sequences/sqIntro/sqIntro.yy",},
     {"name":"sqPauseMenu","order":2,"path":"sequences/sqPauseMenu/sqPauseMenu.yy",},
     {"name":"oButtonResume120","order":4,"path":"objects/oButtonResume120/oButtonResume120.yy",},
