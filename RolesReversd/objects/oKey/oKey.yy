@@ -1,21 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oKey",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":112,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "pickups",
+    "path": "folders/pickups.yy",
   },
   "parentObjectId": {
-    "name": "oCollideParent",
-    "path": "objects/oCollideParent/oCollideParent.yy",
+    "name": "oPickupParent",
+    "path": "objects/oPickupParent/oPickupParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s64wall",
-    "path": "sprites/s64wall/s64wall.yy",
+    "name": "sKey",
+    "path": "sprites/sKey/sKey.yy",
   },
   "spriteMaskId": null,
   "visible": true,

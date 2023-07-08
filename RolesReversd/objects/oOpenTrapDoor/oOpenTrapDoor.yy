@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":112,"eventType":9,"isDnD":false,},
-  ],
+  "name": "oOpenTrapDoor",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -33,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s64wall",
-    "path": "sprites/s64wall/s64wall.yy",
+    "name": "sOpenTrapDoor",
+    "path": "sprites/sOpenTrapDoor/sOpenTrapDoor.yy",
   },
   "spriteMaskId": null,
   "visible": true,

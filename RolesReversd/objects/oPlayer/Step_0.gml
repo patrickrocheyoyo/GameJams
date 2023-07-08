@@ -80,7 +80,7 @@ if(dash && !dashing){
 	var dashCancel = call_later(0.5, time_source_units_seconds, cancelDash);
 }
 		
-if(stomp && !stomping){
+if(stomp && !stomping && !onGround){
 	moveSpd = 0;
 	yspd =0;
 	stomping = true;

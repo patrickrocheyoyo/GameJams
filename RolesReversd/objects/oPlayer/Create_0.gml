@@ -21,6 +21,8 @@ jumps = 2;
 onGround = false;
 isSliding = false;
 
+hasKey = false;
+
 image_speed = 0;
 image_index = 0;
 
