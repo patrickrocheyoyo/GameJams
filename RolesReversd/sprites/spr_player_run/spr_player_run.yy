@@ -32,7 +32,7 @@
   "origin": 6,
   "parent": {
     "name": "player character",
-    "path": "folders/Sprites/Backgrounds/player character.yy",
+    "path": "folders/Sprites/player character.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

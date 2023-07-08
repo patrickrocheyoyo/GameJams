@@ -18,14 +18,14 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player character","folderPath":"folders/Sprites/player character.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Sprites/Tilesets.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player character","folderPath":"folders/Sprites/Backgrounds/player character.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.0.71",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"s64wall","path":"sprites/s64wall/s64wall.yy",},},

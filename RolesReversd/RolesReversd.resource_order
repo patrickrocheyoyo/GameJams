@@ -1,4 +1,8 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
+    {"name":"player character","order":3,"path":"folders/Sprites/player character.yy",},
+    {"name":"Tilesets","order":2,"path":"folders/Sprites/Tilesets.yy",},
+  ],
   "ResourceOrderSettings": [],
 }
