@@ -39,6 +39,9 @@ if(place_meeting(x+moveSpd,y, oCollideParents)){
 	if(instance_place(x+moveSpd, y, oWall) && canSlide){
 		isSliding = true;
 		
+		if(slideCancelTimer == -1){
+			slideCancelTimer = call_later(1, time_source_units_seconds, cancelSlide);
+		}
 		
 	}
 	moveSpd = 0;
@@ -69,6 +72,10 @@ else{
 	stomping = false;
 	image_index = 0;
 	canSlide = true;
+	if(slideCancelTimer != -1){
+		call_cancel(slideCancelTimer);
+		slideCancelTimer = -1;
+	}
 	
 }
       

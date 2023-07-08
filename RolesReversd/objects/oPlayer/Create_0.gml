@@ -27,6 +27,8 @@ hasKey = false;
 image_speed = 0;
 image_index = 0;
 
+slideCancelTimer = -1;
+
 function cancelSlide(){
 	isSliding=false;
 	canSlide =false;
