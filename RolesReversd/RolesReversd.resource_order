@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"oSlippyWall","order":1,"path":"objects/oSlippyWall/oSlippyWall.yy",},
     {"name":"oButtonMainMenu119","order":3,"path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},
     {"name":"sqIntro","order":1,"path":"sequences/sqIntro/sqIntro.yy",},
     {"name":"sqPauseMenu","order":2,"path":"sequences/sqPauseMenu/sqPauseMenu.yy",},
     {"name":"oButtonResume120","order":4,"path":"objects/oButtonResume120/oButtonResume120.yy",},
+    {"name":"s64slippywall","order":3,"path":"sprites/s64slippywall/s64slippywall.yy",},
   ],
 }

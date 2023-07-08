@@ -14,17 +14,23 @@ dashing = false;
 stomping = false;
 
 fallSpd = 1;
-jumpPower = -20;
+jumpPower = -15;
 
 jumps = 2;
 
 onGround = false;
 isSliding = false;
+canSlide = true;
 
 hasKey = false;
 
 image_speed = 0;
 image_index = 0;
+
+function cancelSlide(){
+	isSliding=false;
+	canSlide =false;
+}
 
 
 function cancelDash(){

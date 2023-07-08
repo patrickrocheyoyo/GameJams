@@ -22,9 +22,9 @@ if(!dashing && !stomping){
 		image_xscale = horizontalInput;
 	}else{
 		if(moveSpd > moveAcc){
-			moveSpd -= moveAcc;
+			moveSpd -= moveAcc/3;
 		}else if( moveSpd < -moveAcc){
-			moveSpd += moveAcc;
+			moveSpd += moveAcc/3;
 		}else{
 			moveSpd = 0;
 		}
@@ -35,9 +35,14 @@ if(!dashing && !stomping){
 if(place_meeting(x+moveSpd,y, oCollideParents)){
 	while(!place_meeting(x+sign(moveSpd),y,oCollideParents)){
 		x+=sign(moveSpd);
-	}				
+	}		
+	if(instance_place(x+moveSpd, y, oWall) && canSlide){
+		isSliding = true;
+		
+		
+	}
 	moveSpd = 0;
-	isSliding = true;
+	
 }
 
 
@@ -63,6 +68,8 @@ else{
 	yspd = 0;
 	stomping = false;
 	image_index = 0;
+	canSlide = true;
+	
 }
       
 
@@ -70,6 +77,7 @@ if(jump){
 	if(jumps > 0){
 		yspd = jumpPower;
 		jumps -= 1;
+		
 	}
 }
 
