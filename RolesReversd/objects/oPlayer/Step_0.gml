@@ -32,8 +32,8 @@ if(!dashing && !stomping){
 }
 	
 
-if(place_meeting(x+moveSpd,y, oCollideParent)){
-	while(!place_meeting(x+sign(moveSpd),y,oCollideParent)){
+if(place_meeting(x+moveSpd,y, oCollideParents)){
+	while(!place_meeting(x+sign(moveSpd),y,oCollideParents)){
 		x+=sign(moveSpd);
 	}				
 	moveSpd = 0;
@@ -42,7 +42,7 @@ if(place_meeting(x+moveSpd,y, oCollideParent)){
 
 
 //up/down movement and collisions
-onGround = place_meeting(x, y+yspd, oCollideParent);
+onGround = place_meeting(x, y+yspd, oCollideParents);
 
 if(!onGround){
 	yspd += fallSpd;	

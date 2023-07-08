@@ -6,7 +6,7 @@ switch (other.pickup){
 	
 	case "key":
 		if(stomping){
-			other.attach(self);
+			other.attach(oPlayer);
 			hasKey = true;
 		}
 	break;
@@ -19,3 +19,4 @@ switch (other.pickup){
 		show_debug_message("Unknown pickup");
 }
 	
+

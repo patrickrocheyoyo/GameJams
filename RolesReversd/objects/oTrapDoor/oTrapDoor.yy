@@ -12,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oCollideParent",
-    "path": "objects/oCollideParent/oCollideParent.yy",
+    "name": "oCollideParents",
+    "path": "objects/oCollideParents/oCollideParents.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

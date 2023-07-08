@@ -1,10 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCollideParent",
+  "name": "oCollideParents",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
   "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
