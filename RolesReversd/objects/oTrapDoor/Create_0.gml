@@ -4,7 +4,9 @@
 
 
 function action(){
-	instance_create_layer(x,y,layer, oOpenTrapDoor);
+	doorangle = image_angle;
+	opendoor = instance_create_layer(x,y,layer, oOpenTrapDoor);
+	opendoor.image_angle = doorangle;
 	instance_destroy();
 	
 }

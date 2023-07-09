@@ -11,6 +11,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"rm_scottlevel1","order":8,"path":"rooms/rm_scottlevel1/rm_scottlevel1.yy",},
     {"name":"aud_Game_Music","order":3,"path":"sounds/aud_Game_Music/aud_Game_Music.yy",},
     {"name":"spr_player_butt_stomp","order":5,"path":"sprites/spr_player_butt_stomp/spr_player_butt_stomp.yy",},
     {"name":"snd_Player_Jump_Land","order":4,"path":"sounds/snd_Player_Jump_Land/snd_Player_Jump_Land.yy",},
