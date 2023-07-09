@@ -8,9 +8,11 @@ var _message = event_data[? "message"];
 
 // This checks if the message is "footstep", meaning the player has put a foot down. In that case we will create a dust effect.
 if (_message == "footstep")
-{	
-	// Play that sound
-	audio_play_sound(snd_Player_Step, 0, 0);
+{	if (!dashing)
+	{	
+		// Play that sound
+		audio_play_sound(snd_Player_Step, 0, 0);
+	}
 }
 
 

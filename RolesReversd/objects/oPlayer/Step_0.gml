@@ -16,7 +16,7 @@ if(captured){
 	y = oLightBeam.y;
 	
 	//Play dying sfx when captured by the light beam
-	var _winSound = choose (snd_Player_Win_1, snd_Player_Win_2);
+	var _winSound = choose (snd_Player_Lose_1, snd_Player_Lose_2);
 	audio_play_sound(_winSound, 0, 0);
 	
 	exit;
@@ -81,12 +81,13 @@ if(!onGround){
 	if(stomping){
 		sprite_index = stompSprite
 		image_speed = 1;
-		yspd += fallSpd *2;
+		yspd += fallSpd *2;		
 	}
 }
-else{
+else{ //if player is on the ground
 	jumps = 2;
 	yspd = 0;
+	
 	stomping = false;
 	
 	canSlide = true;
@@ -100,6 +101,10 @@ else{
 
 if(jump){
 	if(jumps > 0){
+		//Play jump SFX
+		var _jumpSound = choose (snd_Player_Jump_1, snd_Player_Jump_2);
+		audio_play_sound(_jumpSound, 0, 0);
+		
 		yspd = jumpPower;
 		jumps -= 1;
 		
@@ -110,6 +115,8 @@ if(dash && !dashing){
 	yspd =0;
 	moveSpd *= 2;
 	dashing = true;
+	//play dash sfx
+	audio_play_sound(snd_Player_Dash, 0, 0);
 	var dashCancel = call_later(0.5, time_source_units_seconds, cancelDash);
 }
 		
