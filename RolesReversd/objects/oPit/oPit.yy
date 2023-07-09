@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPit",
-    "path": "sprites/sPit/sPit.yy",
+    "name": "spr_Sacrificial_Pit",
+    "path": "sprites/spr_Sacrificial_Pit/spr_Sacrificial_Pit.yy",
   },
   "spriteMaskId": null,
   "visible": true,
