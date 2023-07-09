@@ -15,6 +15,16 @@ if (_message == "footstep")
 	}
 }
 
+if (_message == "stomp impact")
+{
+	audio_play_sound(snd_Player_Stomp_Impact, 0, 0);
+}
+
+if (_message == "landing impact")
+{
+	audio_play_sound(snd_Player_Jump_Land, 0, 0);
+}
+	
 
 
 
