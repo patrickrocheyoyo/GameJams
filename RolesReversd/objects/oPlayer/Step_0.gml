@@ -39,8 +39,10 @@ if(!dashing && !stomping){
 			moveSpd += moveAcc/3;
 		}else{
 			moveSpd = 0;
-			sprite_index = idleSprite;
-			image_speed = 0;
+			if(onGround){
+				sprite_index = idleSprite;
+			}
+			image_speed = 1;
 		}
 		
 	}
@@ -109,7 +111,7 @@ if(jump){
 		//Play jump SFX
 		var _jumpSound = choose (snd_Player_Jump_1, snd_Player_Jump_2);
 		audio_play_sound(_jumpSound, 0, 0);
-		
+		sprite_index = jumpSprite;
 		yspd = jumpPower;
 		jumps -= 1;
 		
