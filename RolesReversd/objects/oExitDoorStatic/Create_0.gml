@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 
-
-mpgrid = mp_grid_create(0,0,room_width/16,room_height/16, 16,16);
+var mpcell = 64;
+mpgrid = mp_grid_create(0,0,room_width/mpcell,room_height/mpcell, mpcell,mpcell);
 
 mp_grid_add_instances(mpgrid, oCollideParents, false);
 

@@ -13,8 +13,12 @@ if(!capturedPlayer){
 		foundPath = mp_grid_path(oExitDoorStatic.mpgrid, mppath, x,y, oPlayer.x,oPlayer.y-i, true);
 		i++;
 		if(i > 400){
-			continue;
+			break;
 		}
+	}
+	
+	if(foundPath == false){
+		mp_potential_step_object(oPlayer.x,oPlayer.y, 6, oCollideParents);	
 	}
 
 	if(path_exists(mppath)){
