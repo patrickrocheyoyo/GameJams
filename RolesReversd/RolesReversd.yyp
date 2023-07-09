@@ -104,6 +104,7 @@
     {"id":{"name":"oIntroControl","path":"objects/oIntroControl/oIntroControl.yy",},},
     {"id":{"name":"oExitDoorStatic","path":"objects/oExitDoorStatic/oExitDoorStatic.yy",},},
     {"id":{"name":"rm_AliceLevel","path":"rooms/rm_AliceLevel/rm_AliceLevel.yy",},},
+    {"id":{"name":"szIntroText","path":"sprites/szIntroText/szIntroText.yy",},},
     {"id":{"name":"rIntro","path":"rooms/rIntro/rIntro.yy",},},
     {"id":{"name":"sEndTitle","path":"sprites/sEndTitle/sEndTitle.yy",},},
     {"id":{"name":"snd_Pickup","path":"sounds/snd_Pickup/snd_Pickup.yy",},},

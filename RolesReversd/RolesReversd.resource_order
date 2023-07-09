@@ -39,6 +39,7 @@
     {"name":"snd_Narrator_tutorialGoToPit","order":2,"path":"sounds/snd_Narrator_tutorialGoToPit/snd_Narrator_tutorialGoToPit.yy",},
     {"name":"oLightBeam","order":2,"path":"objects/oLightBeam/oLightBeam.yy",},
     {"name":"rm_AliceLevel","order":5,"path":"rooms/rm_AliceLevel/rm_AliceLevel.yy",},
+    {"name":"szIntroText","order":6,"path":"sprites/szIntroText/szIntroText.yy",},
     {"name":"sEndTitle","order":4,"path":"sprites/sEndTitle/sEndTitle.yy",},
     {"name":"snd_Pickup","order":3,"path":"sounds/snd_Pickup/snd_Pickup.yy",},
     {"name":"GameMaker_Logo_BlackTransparent","order":5,"path":"sprites/GameMaker_Logo_BlackTransparent/GameMaker_Logo_BlackTransparent.yy",},
