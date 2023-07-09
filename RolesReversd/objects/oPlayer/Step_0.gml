@@ -14,6 +14,10 @@ isSliding = false;
 if(captured){
 	x = oLightBeam.x;
 	y = oLightBeam.y;
+	
+	//Play dying sfx when captured by the light beam
+	var _winSound = choose (snd_Player_Win_1, snd_Player_Win_2);
+	audio_play_sound(_winSound, 0, 0);
 	exit;
 	
 }
