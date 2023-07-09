@@ -26,6 +26,7 @@ hasKey = false;
 
 image_speed = 0;
 image_index = 0;
+image_xscale = -1;
 
 slideCancelTimer = -1;
 

@@ -24,7 +24,8 @@ if(!dashing && !stomping){
 	if(horizontalInput != 0){
 		moveSpd += horizontalInput * moveAcc;
 		moveSpd = clamp(moveSpd, -maxMoveSpd, maxMoveSpd);
-		image_xscale = horizontalInput;
+		image_xscale = -horizontalInput;
+		image_speed = 1;
 	}else{
 		if(moveSpd > moveAcc){
 			moveSpd -= moveAcc/3;
@@ -32,7 +33,9 @@ if(!dashing && !stomping){
 			moveSpd += moveAcc/3;
 		}else{
 			moveSpd = 0;
+			image_speed = 0;
 		}
+		
 	}
 }
 	
@@ -75,7 +78,7 @@ else{
 	jumps = 2;
 	yspd = 0;
 	stomping = false;
-	image_index = 0;
+	
 	canSlide = true;
 	if(slideCancelTimer != -1){
 		call_cancel(slideCancelTimer);
@@ -104,6 +107,6 @@ if(stomp && !stomping && !onGround){
 	moveSpd = 0;
 	yspd =0;
 	stomping = true;
-	image_index = 1;
+	
 }
 
