@@ -5,6 +5,8 @@
     {"name":"Tilesets","order":2,"path":"folders/Sprites/Tilesets.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oButtonMainMenu119","order":7,"path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},
+    {"name":"oButtonStart","order":6,"path":"objects/oButtonStart/oButtonStart.yy",},
     {"name":"sLightBeam","order":1,"path":"sprites/sLightBeam/sLightBeam.yy",},
     {"name":"rm_Level2","order":2,"path":"rooms/rm_Level2/rm_Level2.yy",},
     {"name":"sBlackBox","order":4,"path":"sprites/sBlackBox/sBlackBox.yy",},
@@ -14,5 +16,6 @@
     {"name":"rm_Level3","order":3,"path":"rooms/rm_Level3/rm_Level3.yy",},
     {"name":"rm_Level1","order":1,"path":"rooms/rm_Level1/rm_Level1.yy",},
     {"name":"fMarker","order":2,"path":"fonts/fMarker/fMarker.yy",},
+    {"name":"sqMainMenu5","order":8,"path":"sequences/sqMainMenu5/sqMainMenu5.yy",},
   ],
 }

@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "RolesReversd",
-    "path": "RolesReversd.yyp",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
 }

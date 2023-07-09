@@ -136,8 +136,8 @@
   "lineHeight": 12,
   "maintainGms1Font": false,
   "parent": {
-    "name": "RolesReversd",
-    "path": "RolesReversd.yyp",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
   "pointRounding": 0,
   "ranges": [
