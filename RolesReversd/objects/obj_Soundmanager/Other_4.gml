@@ -8,7 +8,7 @@ if (room == rMainMenu)
 }else if (room == rEndGame){
 
 	audio_play_sound(aud_Game_Win_Music, 0, 1);
-	if (!audio_is_playing(aud_Win_Music))
+	if (!audio_is_playing(aud_Game_Win_Music))
 	{
 		audio_play_sound(aud_Menu_Music, 0, 1);
 	} 
