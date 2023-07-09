@@ -8,6 +8,8 @@ switch (other.pickup){
 		if(stomping){
 			other.attach(self);
 			hasKey = true;
+			//Play pickup SFX
+			audio_play_sound(snd_Pickup, 0, 0);
 		}
 	break;
 	case "jumpboost":

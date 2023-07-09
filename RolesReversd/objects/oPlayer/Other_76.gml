@@ -1,4 +1,4 @@
-/// @description Foootstep SFX
+/// @description Footstep SFX
 
 // This event runs when a Broadcast Message is received.
 // We're expecting the "footstep" message set in spr_player_run, which tells when the player has put a foot down.
