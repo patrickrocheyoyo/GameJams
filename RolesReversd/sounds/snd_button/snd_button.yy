@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.4469,
+  "duration": 0.25,
   "parent": {
     "name": "UI SFX",
     "path": "folders/Audio/UI SFX.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_button.mp3",
+  "soundFile": "snd_button.wav",
   "type": 0,
   "volume": 0.7,
 }

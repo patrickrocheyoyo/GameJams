@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "aud_Game_Win_Music.mp3",
   "type": 0,
-  "volume": 0.7,
+  "volume": 0.3,
 }
