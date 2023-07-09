@@ -30,7 +30,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.2.0.71",
   },
   "resources": [
     {"id":{"name":"s64wall","path":"sprites/s64wall/s64wall.yy",},},
@@ -39,6 +39,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"s_bgFire_7","path":"sprites/s_bgFire_7/s_bgFire_7.yy",},},
     {"id":{"name":"aud_Game_Music","path":"sounds/aud_Game_Music/aud_Game_Music.yy",},},
+    {"id":{"name":"spr_player_butt_stomp","path":"sprites/spr_player_butt_stomp/spr_player_butt_stomp.yy",},},
     {"id":{"name":"s_bgFire_5","path":"sprites/s_bgFire_5/s_bgFire_5.yy",},},
     {"id":{"name":"sFlameTileset","path":"sprites/sFlameTileset/sFlameTileset.yy",},},
     {"id":{"name":"snd_Player_Jump_Land","path":"sounds/snd_Player_Jump_Land/snd_Player_Jump_Land.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"oLever","path":"objects/oLever/oLever.yy",},},
     {"id":{"name":"oTrapDoor","path":"objects/oTrapDoor/oTrapDoor.yy",},},
     {"id":{"name":"sqIntro","path":"sequences/sqIntro/sqIntro.yy",},},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"sExitDoor","path":"sprites/sExitDoor/sExitDoor.yy",},},
     {"id":{"name":"sqPauseMenu","path":"sequences/sqPauseMenu/sqPauseMenu.yy",},},
     {"id":{"name":"snd_Player_Jump_1","path":"sounds/snd_Player_Jump_1/snd_Player_Jump_1.yy",},},
@@ -120,6 +122,7 @@
     {"id":{"name":"aud_Game_Lose_Music","path":"sounds/aud_Game_Lose_Music/aud_Game_Lose_Music.yy",},},
     {"id":{"name":"s64slippywall","path":"sprites/s64slippywall/s64slippywall.yy",},},
     {"id":{"name":"sPit","path":"sprites/sPit/sPit.yy",},},
+    {"id":{"name":"spr_player_dash","path":"sprites/spr_player_dash/spr_player_dash.yy",},},
     {"id":{"name":"scGameContol","path":"scripts/scGameContol/scGameContol.yy",},},
     {"id":{"name":"snd_Open_Door","path":"sounds/snd_Open_Door/snd_Open_Door.yy",},},
     {"id":{"name":"snd_Player_Stomp_Impact","path":"sounds/snd_Player_Stomp_Impact/snd_Player_Stomp_Impact.yy",},},

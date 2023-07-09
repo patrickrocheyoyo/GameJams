@@ -28,7 +28,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7cca6c6e-9f57-4d4f-88f1-83fdde86adeb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 0,
+  "origin": 6,
   "parent": {
     "name": "player character",
     "path": "folders/Sprites/player character.yy",
@@ -70,7 +70,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
-    "yorigin": 0,
+    "yorigin": 64,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

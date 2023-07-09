@@ -12,6 +12,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"aud_Game_Music","order":3,"path":"sounds/aud_Game_Music/aud_Game_Music.yy",},
+    {"name":"spr_player_butt_stomp","order":5,"path":"sprites/spr_player_butt_stomp/spr_player_butt_stomp.yy",},
     {"name":"snd_Player_Jump_Land","order":4,"path":"sounds/snd_Player_Jump_Land/snd_Player_Jump_Land.yy",},
     {"name":"snd_Player_Win_1","order":10,"path":"sounds/snd_Player_Win_1/snd_Player_Win_1.yy",},
     {"name":"snd_Player_Summon","order":9,"path":"sounds/snd_Player_Summon/snd_Player_Summon.yy",},
@@ -27,6 +28,7 @@
     {"name":"snd_Narrator_hello","order":1,"path":"sounds/snd_Narrator_hello/snd_Narrator_hello.yy",},
     {"name":"sBlackBox","order":4,"path":"sprites/sBlackBox/sBlackBox.yy",},
     {"name":"logo","order":5,"path":"sprites/logo/logo.yy",},
+    {"name":"spr_player_idle","order":3,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"snd_Player_Jump_1","order":2,"path":"sounds/snd_Player_Jump_1/snd_Player_Jump_1.yy",},
     {"name":"licences","order":1,"path":"notes/licences/licences.yy",},
     {"name":"snd_Narrator_tutorialGoToPit","order":2,"path":"sounds/snd_Narrator_tutorialGoToPit/snd_Narrator_tutorialGoToPit.yy",},
@@ -41,6 +43,7 @@
     {"name":"snd_Unlock_Switch","order":1,"path":"sounds/snd_Unlock_Switch/snd_Unlock_Switch.yy",},
     {"name":"sqMainMenu5","order":8,"path":"sequences/sqMainMenu5/sqMainMenu5.yy",},
     {"name":"aud_Game_Lose_Music","order":2,"path":"sounds/aud_Game_Lose_Music/aud_Game_Lose_Music.yy",},
+    {"name":"spr_player_dash","order":4,"path":"sprites/spr_player_dash/spr_player_dash.yy",},
     {"name":"snd_Open_Door","order":2,"path":"sounds/snd_Open_Door/snd_Open_Door.yy",},
     {"name":"snd_Player_Stomp_Impact","order":8,"path":"sounds/snd_Player_Stomp_Impact/snd_Player_Stomp_Impact.yy",},
   ],
