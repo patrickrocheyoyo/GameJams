@@ -6,6 +6,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sLightBeam","order":1,"path":"sprites/sLightBeam/sLightBeam.yy",},
+    {"name":"sBlackBox","order":4,"path":"sprites/sBlackBox/sBlackBox.yy",},
+    {"name":"logo","order":5,"path":"sprites/logo/logo.yy",},
     {"name":"oLightBeam","order":2,"path":"objects/oLightBeam/oLightBeam.yy",},
   ],
 }
