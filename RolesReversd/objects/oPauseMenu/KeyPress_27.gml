@@ -1,4 +1,4 @@
-
+if room != rMainMenu {
 if (!paused)
 {
 	// Deactivate all instances except the current instance.
@@ -22,7 +22,7 @@ else
 	// Set 'paused' to false, as the game is now unpaused
 	paused = false;
 }
-
+}
 
 
 
