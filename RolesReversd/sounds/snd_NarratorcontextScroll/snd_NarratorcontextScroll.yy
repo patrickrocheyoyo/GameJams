@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 26.556734,
   "parent": {
-    "name": "Audio",
-    "path": "folders/Audio.yy",
+    "name": "Narrator VO",
+    "path": "folders/Audio/Narrator VO.yy",
   },
   "preload": false,
   "sampleRate": 44100,
