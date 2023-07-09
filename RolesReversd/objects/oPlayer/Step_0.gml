@@ -53,7 +53,7 @@ if(place_meeting(x+moveSpd,y, oCollideParents)){
 	}		
 	if(instance_place(x+moveSpd, y, oWall) && canSlide){
 		isSliding = true;
-		
+		image_index = spr_player_wall_slide;
 		if(slideCancelTimer == -1){
 			slideCancelTimer = call_later(1, time_source_units_seconds, cancelSlide);
 		}
