@@ -80,13 +80,18 @@ if(!onGround){
 	
 	if(stomping){
 		sprite_index = stompSprite
-		image_speed = 1;
+		image_speed = 0;
+		image_index = 1;
 		yspd += fallSpd *2;		
 	}
 }
 else{ //if player is on the ground
 	jumps = 2;
 	yspd = 0;
+	
+	if(stomping == true){
+		image_index = 2;
+	}
 	
 	stomping = false;
 	
