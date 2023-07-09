@@ -6,9 +6,9 @@
     {"name":"Player SFX","order":3,"path":"folders/Audio/Player SFX.yy",},
     {"name":"UI SFX","order":2,"path":"folders/Audio/UI SFX.yy",},
     {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
+    {"name":"level items","order":7,"path":"folders/Sprites/level items.yy",},
     {"name":"player character","order":3,"path":"folders/Sprites/player character.yy",},
     {"name":"Tilesets","order":2,"path":"folders/Sprites/Tilesets.yy",},
-    {"name":"level items","order":7,"path":"folders/Sprites/level items.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
