@@ -1,7 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+stompSprite = spr_player_butt_stomp;
+idleSprite = spr_player_idle;
+dashSprite = spr_player_dash;
+fallSprite = spr_player_fall;
+runSprite = spr_player_run;
+jumpSprite = spr_player_jump;
 
 
 yspd = 0;
@@ -24,6 +29,7 @@ canSlide = true;
 
 hasKey = false;
 
+sprite_index = idleSprite;
 image_speed = 0;
 image_index = 0;
 image_xscale = -1;

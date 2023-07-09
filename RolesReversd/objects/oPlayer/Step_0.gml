@@ -24,6 +24,7 @@ if(!dashing && !stomping){
 	if(horizontalInput != 0){
 		moveSpd += horizontalInput * moveAcc;
 		moveSpd = clamp(moveSpd, -maxMoveSpd, maxMoveSpd);
+		sprite_index = runSprite;
 		image_xscale = -horizontalInput;
 		image_speed = 1;
 	}else{
@@ -33,6 +34,7 @@ if(!dashing && !stomping){
 			moveSpd += moveAcc/3;
 		}else{
 			moveSpd = 0;
+			sprite_index = idleSprite;
 			image_speed = 0;
 		}
 		
@@ -63,6 +65,7 @@ onGround = place_meeting(x, y+yspd, oCollideParents);
 if(!onGround){
 	yspd += fallSpd;	
 	
+	
 	if(isSliding){
 		if(yspd > 0){
 			yspd = fallSpd / 2;
@@ -71,6 +74,8 @@ if(!onGround){
 	}
 	
 	if(stomping){
+		sprite_index = stompSprite
+		image_speed = 1;
 		yspd += fallSpd *2;
 	}
 }
