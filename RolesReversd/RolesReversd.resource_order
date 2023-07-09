@@ -19,6 +19,7 @@
     {"name":"spr_player_wall_slide","order":6,"path":"sprites/spr_player_wall_slide/spr_player_wall_slide.yy",},
     {"name":"snd_Player_Win_1","order":10,"path":"sounds/snd_Player_Win_1/snd_Player_Win_1.yy",},
     {"name":"obj_Soundmanager","order":3,"path":"objects/obj_Soundmanager/obj_Soundmanager.yy",},
+    {"name":"rm_AliceLevel2","order":9,"path":"rooms/rm_AliceLevel2/rm_AliceLevel2.yy",},
     {"name":"rm_level1","order":5,"path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"rm_level3","order":7,"path":"rooms/rm_level3/rm_level3.yy",},
     {"name":"snd_Player_Summon","order":9,"path":"sounds/snd_Player_Summon/snd_Player_Summon.yy",},
