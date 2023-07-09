@@ -25,10 +25,11 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.2.0.71",
   },
   "resources": [
     {"id":{"name":"s64wall","path":"sprites/s64wall/s64wall.yy",},},
+    {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"rm_testRoom","path":"rooms/rm_testRoom/rm_testRoom.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"s_bgFire_7","path":"sprites/s_bgFire_7/s_bgFire_7.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"sLightBeam","path":"sprites/sLightBeam/sLightBeam.yy",},},
     {"id":{"name":"rEndGame","path":"rooms/rEndGame/rEndGame.yy",},},
     {"id":{"name":"fIntro","path":"fonts/fIntro/fIntro.yy",},},
+    {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},},
     {"id":{"name":"rm_Level2","path":"rooms/rm_Level2/rm_Level2.yy",},},
     {"id":{"name":"oButtonReplay","path":"objects/oButtonReplay/oButtonReplay.yy",},},
     {"id":{"name":"oButtonQuit","path":"objects/oButtonQuit/oButtonQuit.yy",},},

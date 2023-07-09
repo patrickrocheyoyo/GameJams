@@ -5,9 +5,11 @@
     {"name":"Tilesets","order":2,"path":"folders/Sprites/Tilesets.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"oButtonMainMenu119","order":7,"path":"objects/oButtonMainMenu119/oButtonMainMenu119.yy",},
     {"name":"oButtonStart","order":6,"path":"objects/oButtonStart/oButtonStart.yy",},
     {"name":"sLightBeam","order":1,"path":"sprites/sLightBeam/sLightBeam.yy",},
+    {"name":"spr_player_fall","order":2,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
     {"name":"rm_Level2","order":2,"path":"rooms/rm_Level2/rm_Level2.yy",},
     {"name":"sBlackBox","order":4,"path":"sprites/sBlackBox/sBlackBox.yy",},
     {"name":"logo","order":5,"path":"sprites/logo/logo.yy",},
