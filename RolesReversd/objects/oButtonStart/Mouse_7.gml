@@ -3,7 +3,7 @@ audio_play_sound(snd_button, 0, 0);
 
 if global._doneintro = true
 {
-	room_goto(rm_defaultRoom);
+	room_goto(rm_AliceLevel);
 }
 
 else 
