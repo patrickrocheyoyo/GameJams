@@ -11,7 +11,12 @@ var stomp = keyboard_check_pressed(vk_control);
 
 isSliding = false;
 
-
+if(captured){
+	x = oLightBeam.x;
+	y = oLightBeam.y;
+	exit;
+	
+}
 //left right movement and collision
 var horizontalInput = right - left;
 

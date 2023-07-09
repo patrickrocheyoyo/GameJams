@@ -29,6 +29,8 @@ image_index = 0;
 
 slideCancelTimer = -1;
 
+captured = false;
+
 function cancelSlide(){
 	isSliding=false;
 	canSlide =false;

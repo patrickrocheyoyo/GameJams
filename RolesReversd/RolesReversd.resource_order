@@ -4,5 +4,8 @@
     {"name":"player character","order":3,"path":"folders/Sprites/player character.yy",},
     {"name":"Tilesets","order":2,"path":"folders/Sprites/Tilesets.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"sLightBeam","order":1,"path":"sprites/sLightBeam/sLightBeam.yy",},
+    {"name":"oLightBeam","order":2,"path":"objects/oLightBeam/oLightBeam.yy",},
+  ],
 }
