@@ -38,6 +38,9 @@ slideCancelTimer = -1;
 
 captured = false;
 
+//Play SFX for 'summoning' player.
+audio_play_sound(snd_Player_Summon, 0, 0);
+
 function cancelSlide(){
 	isSliding=false;
 	canSlide =false;
