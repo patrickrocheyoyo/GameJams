@@ -7,6 +7,9 @@ health-=10;
 
 instance_destroy(other);
 
+if(health<0)
+	room_goto(PostGameRoom);
+
 
 
 
