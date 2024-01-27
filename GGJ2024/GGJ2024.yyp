@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"GameRoom1","path":"rooms/GameRoom1/GameRoom1.yy",},},
+    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"oPunchline","path":"objects/oPunchline/oPunchline.yy",},},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},},
     {"id":{"name":"oJokeHandler","path":"objects/oJokeHandler/oJokeHandler.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"sMenuBackdrop","path":"sprites/sMenuBackdrop/sMenuBackdrop.yy",},},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},},
     {"id":{"name":"Jokes","path":"scripts/Jokes/Jokes.yy",},},
+    {"id":{"name":"sTrail","path":"sprites/sTrail/sTrail.yy",},},
     {"id":{"name":"oCrowd","path":"objects/oCrowd/oCrowd.yy",},},
     {"id":{"name":"GameRoom2","path":"rooms/GameRoom2/GameRoom2.yy",},},
     {"id":{"name":"oTitleScreen","path":"objects/oTitleScreen/oTitleScreen.yy",},},

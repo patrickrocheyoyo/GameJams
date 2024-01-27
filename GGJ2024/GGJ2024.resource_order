@@ -39,6 +39,7 @@
     {"name":"sMenuBackdrop","order":1,"path":"sprites/sMenuBackdrop/sMenuBackdrop.yy",},
     {"name":"oProjectile","order":5,"path":"objects/oProjectile/oProjectile.yy",},
     {"name":"Jokes","order":1,"path":"scripts/Jokes/Jokes.yy",},
+    {"name":"sTrail","order":9,"path":"sprites/sTrail/sTrail.yy",},
     {"name":"oCrowd","order":3,"path":"objects/oCrowd/oCrowd.yy",},
     {"name":"GameRoom2","order":3,"path":"rooms/GameRoom2/GameRoom2.yy",},
     {"name":"oControl","order":4,"path":"objects/oControl/oControl.yy",},

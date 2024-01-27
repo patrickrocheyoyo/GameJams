@@ -30,5 +30,5 @@
     "path": "sprites/sStageArea/sStageArea.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
