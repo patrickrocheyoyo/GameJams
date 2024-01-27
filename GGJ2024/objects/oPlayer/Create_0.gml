@@ -19,6 +19,7 @@ last_mouse_down = false;
 last_mouse_x = -1;
 last_mouse_y = -1;
 
+slip_frames = 0;
 
 health=100;
 

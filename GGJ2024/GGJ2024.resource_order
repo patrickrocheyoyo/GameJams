@@ -21,6 +21,7 @@
     {"name":"GameRoom1","order":2,"path":"rooms/GameRoom1/GameRoom1.yy",},
     {"name":"oPunchline","order":7,"path":"objects/oPunchline/oPunchline.yy",},
     {"name":"sProjectile","order":5,"path":"sprites/sProjectile/sProjectile.yy",},
+    {"name":"sProjectileBanana","order":8,"path":"sprites/sProjectileBanana/sProjectileBanana.yy",},
     {"name":"oJokeHandler","order":8,"path":"objects/oJokeHandler/oJokeHandler.yy",},
     {"name":"sTrapdoor","order":7,"path":"sprites/sTrapdoor/sTrapdoor.yy",},
     {"name":"oTrapdoor","order":9,"path":"objects/oTrapdoor/oTrapdoor.yy",},
@@ -45,5 +46,6 @@
     {"name":"oControl","order":4,"path":"objects/oControl/oControl.yy",},
     {"name":"oJokeBook","order":11,"path":"objects/oJokeBook/oJokeBook.yy",},
     {"name":"oJokeController","order":6,"path":"objects/oJokeController/oJokeController.yy",},
+    {"name":"oProjectileBanana","order":12,"path":"objects/oProjectileBanana/oProjectileBanana.yy",},
   ],
 }
