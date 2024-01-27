@@ -152,31 +152,15 @@
 	velx += deltax*0.6;
 	vely += deltay*0.6;
 
-	x+=velx;
-	y+=vely;
-	
-	
-	if(bbox_left<0)
-	{
-		x-=bbox_left;
-	}
-	if(bbox_right>room_width)
-	{
-		x-=(bbox_right-room_width);
-	}
-	
-	var topy = 0;
+	var new_x = x + velx;
+	var new_y = y + vely;
 
-	if(bbox_top<topy)
+	if(instance_place(new_x, new_y, oStageArea) != noone)
 	{
-		y+=(topy-bbox_top);
+		x = new_x;
+		y = new_y;
 	}
-
 	
-	if(bbox_bottom>room_height)
-	{
-		y-=(bbox_bottom-room_height);
-	}
 
 	
 
