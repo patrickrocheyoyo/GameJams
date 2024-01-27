@@ -41,6 +41,7 @@
     {"name":"oCrowd","order":3,"path":"objects/oCrowd/oCrowd.yy",},
     {"name":"GameRoom2","order":3,"path":"rooms/GameRoom2/GameRoom2.yy",},
     {"name":"oControl","order":4,"path":"objects/oControl/oControl.yy",},
+    {"name":"oJokeBook","order":11,"path":"objects/oJokeBook/oJokeBook.yy",},
     {"name":"oJokeController","order":6,"path":"objects/oJokeController/oJokeController.yy",},
   ],
 }

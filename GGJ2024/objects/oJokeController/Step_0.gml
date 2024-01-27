@@ -106,6 +106,7 @@ if(frame==jokes[curjoke].time)
 			}
 		
 			var pl = instance_create_layer(pu_x,pu_y,"Instances_1",oPunchline);
+			pl.joke = jokes[curjoke].jk;
 			pl.punchline = jokes[curjoke].punchlines[i];
 			pl.correct = i==0?1:0;
 		

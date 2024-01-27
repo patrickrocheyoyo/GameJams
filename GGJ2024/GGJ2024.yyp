@@ -62,6 +62,7 @@
     {"id":{"name":"GameRoom2","path":"rooms/GameRoom2/GameRoom2.yy",},},
     {"id":{"name":"oTitleScreen","path":"objects/oTitleScreen/oTitleScreen.yy",},},
     {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},},
+    {"id":{"name":"oJokeBook","path":"objects/oJokeBook/oJokeBook.yy",},},
     {"id":{"name":"oJokeController","path":"objects/oJokeController/oJokeController.yy",},},
     {"id":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},},
   ],
