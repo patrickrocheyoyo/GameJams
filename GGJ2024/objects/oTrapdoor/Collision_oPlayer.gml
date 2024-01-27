@@ -3,7 +3,7 @@
 
 
 
-if(visible)
+if(image_index ==1)
 {
 	
 	show_debug_message("Go on to next level");

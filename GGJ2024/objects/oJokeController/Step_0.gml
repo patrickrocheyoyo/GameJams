@@ -11,7 +11,7 @@ if(frame==jokes[curjoke].time)
 	{
 		with(oTrapdoor)
 		{
-			visible = true;
+			image_index = 1;
 		}
 		
 	}
