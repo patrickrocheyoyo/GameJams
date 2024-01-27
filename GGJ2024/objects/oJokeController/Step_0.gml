@@ -7,20 +7,33 @@ if(!instance_exists(oJokeHandler))
 if(frame==jokes[curjoke].time)
 {
 
-	var jk= instance_create_layer(0,0,"Instances_1",oJokeHandler);
-	jk.joke = jokes[curjoke].jk;
-	
-	
-	for(var i=0;i<array_length(jokes[curjoke].punchlines);i++)
+	if(jokes[curjoke].jk == "SpawnTrapdoor")
 	{
+		with(oTrapdoor)
+		{
+			visible = true;
+		}
 		
-		var _x = global.Player.x + 2*(irandom(512)-256);
-		var _y = global.Player.y +2*(irandom(384)-188);
+	}
+	else
+	{
+
+		var jk= instance_create_layer(0,0,"Instances_1",oJokeHandler);
+		jk.joke = jokes[curjoke].jk;
+	
+	
+		for(var i=0;i<array_length(jokes[curjoke].punchlines);i++)
+		{
 		
-		var pl = instance_create_layer(_x,_y,"Instances_1",oPunchline);
-		pl.punchline = jokes[curjoke].punchlines[i];
-		pl.correct = i==0?1:0;
+			var _x = global.Player.x + 2*(irandom(512)-256);
+			var _y = global.Player.y +2*(irandom(384)-188);
 		
+			var pl = instance_create_layer(_x,_y,"Instances_1",oPunchline);
+			pl.punchline = jokes[curjoke].punchlines[i];
+			pl.correct = i==0?1:0;
+		
+		}
+	
 	}
 	frame = 0;
 	curjoke++;
