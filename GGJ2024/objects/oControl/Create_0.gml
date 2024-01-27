@@ -13,7 +13,7 @@ global.deadzonevalue = 0.15
 
 
 
-
+draw_set_font(menuFont);
 
 
 

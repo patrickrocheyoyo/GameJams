@@ -4,7 +4,8 @@
 
 if(correct)
 {
-	//Do stuff
+	record_joke(joke, punchline);
+	save_jokes();
 }
 else
 {

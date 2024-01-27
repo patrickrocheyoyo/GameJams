@@ -5,15 +5,17 @@
 frame = 0;
 
 
-jokes =[
+switch(room)
+{
+	case GameRoom1:
+		jokes = global.Room1Jokes;
+		break;
+		default:
+	case GameRoom2:
+		jokes = global.Room2Jokes;
+		break;
+}
 
-new Joke( "What do you call a fish wearing a bowtie?",["Sofishticated","Fish Fingers","Fred"], 120),
-new Joke( "What did the ocean say to the beach?", ["Nothing, it just waved.","Swoosh","Sand to meet you"], 120),
-
-
-new Joke( "", [], -1),
-
-];
 
 
 curjoke = 0;
