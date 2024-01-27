@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sJokeBacking",
-    "path": "sprites/sJokeBacking/sJokeBacking.yy",
+    "name": "sGreenBack",
+    "path": "sprites/sGreenBack/sGreenBack.yy",
   },
   "spriteMaskId": null,
   "visible": true,
