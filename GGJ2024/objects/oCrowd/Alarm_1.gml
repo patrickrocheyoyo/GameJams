@@ -33,7 +33,9 @@ if(len>0)
 {
 	len = sqrt(len);
 	
-	var inst = instance_create_layer(x,y,"Instances",oProjectile, {
+	var pclass = irandom(1) ? oProjectileBanana : oProjectile;
+	
+	var inst = instance_create_layer(x,y,"Instances",pclass, {
 		xtarget: target_x,
 		ytarget: target_y,
 	});

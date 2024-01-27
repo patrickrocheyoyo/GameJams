@@ -31,16 +31,12 @@
     {"name":"inst_309BE65B","path":"rooms/GameRoom1/GameRoom1.yy",},
     {"name":"inst_704B1A7C","path":"rooms/GameRoom1/GameRoom1.yy",},
     {"name":"inst_61670C71","path":"rooms/GameRoom1/GameRoom1.yy",},
-    {"name":"inst_4ACBA6CB","path":"rooms/GameRoom1/GameRoom1.yy",},
-    {"name":"inst_66A78C57","path":"rooms/GameRoom1/GameRoom1.yy",},
     {"name":"inst_24316816","path":"rooms/GameRoom1/GameRoom1.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"StageArea","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61670C71","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStageArea","path":"objects/oStageArea/oStageArea.yy",},"properties":[],"rotation":0.0,"scaleX":10.0,"scaleY":10.0,"x":384.0,"y":224.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4ACBA6CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStageArea","path":"objects/oStageArea/oStageArea.yy",},"properties":[],"rotation":0.0,"scaleX":9.5,"scaleY":3.0,"x":1024.0,"y":224.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66A78C57","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStageArea","path":"objects/oStageArea/oStageArea.yy",},"properties":[],"rotation":0.0,"scaleX":4.5,"scaleY":9.0,"x":1024.0,"y":608.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61670C71","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oStageArea","path":"objects/oStageArea/oStageArea.yy",},"properties":[],"rotation":0.0,"scaleX":27.0,"scaleY":15.0,"x":352.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_304345BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":768.0,},

@@ -12,6 +12,14 @@
 	deltax = 0;
 	deltay = 0;
 
+if(slip_frames > 0)
+{
+	--slip_frames;
+	
+	velx *= 0.9;
+	velx *= 0.9;
+}
+else{
 	velx *=0.5;
 	vely *=0.5;
 
@@ -151,6 +159,7 @@
 
 	velx += deltax*0.6;
 	vely += deltay*0.6;
+}
 
 	var new_x = x + velx;
 	var new_y = y + vely;

@@ -38,6 +38,7 @@
     {"id":{"name":"GameRoom1","path":"rooms/GameRoom1/GameRoom1.yy",},},
     {"id":{"name":"oPunchline","path":"objects/oPunchline/oPunchline.yy",},},
     {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},},
+    {"id":{"name":"sProjectileBanana","path":"sprites/sProjectileBanana/sProjectileBanana.yy",},},
     {"id":{"name":"oJokeHandler","path":"objects/oJokeHandler/oJokeHandler.yy",},},
     {"id":{"name":"sTrapdoor","path":"sprites/sTrapdoor/sTrapdoor.yy",},},
     {"id":{"name":"oTrapdoor","path":"objects/oTrapdoor/oTrapdoor.yy",},},
@@ -65,6 +66,7 @@
     {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},},
     {"id":{"name":"oJokeBook","path":"objects/oJokeBook/oJokeBook.yy",},},
     {"id":{"name":"oJokeController","path":"objects/oJokeController/oJokeController.yy",},},
+    {"id":{"name":"oProjectileBanana","path":"objects/oProjectileBanana/oProjectileBanana.yy",},},
     {"id":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},},
   ],
   "RoomOrderNodes": [
