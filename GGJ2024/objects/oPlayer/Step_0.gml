@@ -187,7 +187,7 @@
 
 
 
-targimage_angle = 90 -darctan2(-vely,-velx);
+var targimage_angle = 90 -darctan2(-vely,-velx);
 
 
 if(targimage_angle<0)
