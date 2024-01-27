@@ -33,6 +33,7 @@
     {"name":"sJokeBacking","order":6,"path":"sprites/sJokeBacking/sJokeBacking.yy",},
     {"name":"PostGameRoom","order":4,"path":"rooms/PostGameRoom/PostGameRoom.yy",},
     {"name":"sCrowd","order":3,"path":"sprites/sCrowd/sCrowd.yy",},
+    {"name":"menuFont","order":1,"path":"fonts/menuFont/menuFont.yy",},
     {"name":"sStageArea","order":7,"path":"sprites/sStageArea/sStageArea.yy",},
     {"name":"sMenuBackdrop","order":1,"path":"sprites/sMenuBackdrop/sMenuBackdrop.yy",},
     {"name":"oProjectile","order":5,"path":"objects/oProjectile/oProjectile.yy",},

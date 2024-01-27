@@ -52,6 +52,8 @@
     {"id":{"name":"PostGameRoom","path":"rooms/PostGameRoom/PostGameRoom.yy",},},
     {"id":{"name":"sCrowd","path":"sprites/sCrowd/sCrowd.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"gameFont","path":"fonts/gameFont/gameFont.yy",},},
+    {"id":{"name":"menuFont","path":"fonts/menuFont/menuFont.yy",},},
     {"id":{"name":"sStageArea","path":"sprites/sStageArea/sStageArea.yy",},},
     {"id":{"name":"sMenuBackdrop","path":"sprites/sMenuBackdrop/sMenuBackdrop.yy",},},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},},
