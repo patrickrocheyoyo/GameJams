@@ -11,7 +11,7 @@ if(state != eState.Landed)
 	landedcount = 0;
 
 	if(health<0)
-		room_goto(PostGameRoom);
+		CreateTransition(PostGameRoom);
 }
 
 // instance_destroy();
