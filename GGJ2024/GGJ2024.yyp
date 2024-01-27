@@ -44,6 +44,7 @@
     {"id":{"name":"sTitleScreen","path":"sprites/sTitleScreen/sTitleScreen.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"MenuRoom","path":"rooms/MenuRoom/MenuRoom.yy",},},
+    {"id":{"name":"sImpact","path":"sprites/sImpact/sImpact.yy",},},
     {"id":{"name":"oStageArea","path":"objects/oStageArea/oStageArea.yy",},},
     {"id":{"name":"oMenuController","path":"objects/oMenuController/oMenuController.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
