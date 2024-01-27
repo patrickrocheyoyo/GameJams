@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sTomatoSplat","path":"sprites/sTomatoSplat/sTomatoSplat.yy",},},
     {"id":{"name":"GameRoom1","path":"rooms/GameRoom1/GameRoom1.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"oPunchline","path":"objects/oPunchline/oPunchline.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"oMenuController","path":"objects/oMenuController/oMenuController.yy",},},
     {"id":{"name":"sFloorTile","path":"sprites/sFloorTile/sFloorTile.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"oProjectileTomato","path":"objects/oProjectileTomato/oProjectileTomato.yy",},},
     {"id":{"name":"oPostGameController","path":"objects/oPostGameController/oPostGameController.yy",},},
     {"id":{"name":"sJokeBacking","path":"sprites/sJokeBacking/sJokeBacking.yy",},},
     {"id":{"name":"PostGameRoom","path":"rooms/PostGameRoom/PostGameRoom.yy",},},
@@ -70,6 +72,7 @@
     {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},},
     {"id":{"name":"oJokeBook","path":"objects/oJokeBook/oJokeBook.yy",},},
     {"id":{"name":"oJokeController","path":"objects/oJokeController/oJokeController.yy",},},
+    {"id":{"name":"oTomatoSplat","path":"objects/oTomatoSplat/oTomatoSplat.yy",},},
     {"id":{"name":"oProjectileBanana","path":"objects/oProjectileBanana/oProjectileBanana.yy",},},
     {"id":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},},
   ],

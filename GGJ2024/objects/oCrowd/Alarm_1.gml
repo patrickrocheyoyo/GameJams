@@ -33,7 +33,12 @@ if(len>0)
 {
 	len = sqrt(len);
 	
-	var pclass = irandom(1) ? oProjectileBanana : oProjectile;
+	var projectiles = [
+		oProjectileBanana,
+		oProjectileTomato,
+	];
+	
+	var pclass = projectiles[@ irandom(array_length(projectiles) - 1)];
 	
 	var inst = instance_create_layer(x,y,"Instances",pclass, {
 		xtarget: target_x,
