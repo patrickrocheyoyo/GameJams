@@ -11,7 +11,11 @@ if(state != eState.Landed)
 	landedcount = 0;
 
 	if(health<0)
+	{
 		CreateTransition(PostGameRoom);
+		
+		audio_play_sound(sfx_hero_die_fall_01, 1, false, 1.0);
+	}
 }
 
 // instance_destroy();

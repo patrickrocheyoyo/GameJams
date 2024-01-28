@@ -26,3 +26,8 @@
     {"name":"sMenuButtonExitGameOff","order":3,"path":"sprites/sMenuButtonExitGameOff/sMenuButtonExitGameOff.yy",},
   ],
 }
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"snd_level_music_edited","order":1,"path":"sounds/snd_level_music_edited/snd_level_music_edited.yy",},
+  ],
+}
