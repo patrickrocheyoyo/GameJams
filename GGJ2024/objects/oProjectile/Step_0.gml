@@ -34,7 +34,10 @@ if(new_dist_to_target >= old_dist_to_target)
 	
 }
 else
-	image_angle = darctan2(-yvel,xvel);
+{
+	if(spin==0)
+		image_angle = darctan2(-yvel,xvel);
+}
 
 frame++;
 
