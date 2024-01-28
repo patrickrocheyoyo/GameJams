@@ -1,9 +1,14 @@
 {
-<<<<<<< Updated upstream
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"UI","order":4,"path":"folders/Objects/UI.yy",},
+    {"name":"UI","order":2,"path":"folders/Sprites/UI.yy",},
+  ],
   "ResourceOrderSettings": [
+    {"name":"sMenuButtonStartGameOff","order":1,"path":"sprites/sMenuButtonStartGameOff/sMenuButtonStartGameOff.yy",},
+    {"name":"oMenuButtonExitGame","order":3,"path":"objects/oMenuButtonExitGame/oMenuButtonExitGame.yy",},
+    {"name":"oMenuButtonStartGame","order":1,"path":"objects/oMenuButtonStartGame/oMenuButtonStartGame.yy",},
+    {"name":"sMenuButtonExitGameOn","order":2,"path":"sprites/sMenuButtonExitGameOn/sMenuButtonExitGameOn.yy",},
     {"name":"sGreenBack","order":1,"path":"sprites/sGreenBack/sGreenBack.yy",},
-=======
   "FolderOrderSettings": [
     {"name":"ggjsounds","order":1,"path":"folders/Sounds/ggjsounds.yy",},
   ],
@@ -21,6 +26,7 @@
     {"name":"squeaky_toy_1_6059","order":12,"path":"sounds/squeaky_toy_1_6059/squeaky_toy_1_6059.yy",},
     {"name":"sfx_hero_hit_01","order":6,"path":"sounds/sfx_hero_hit_01/sfx_hero_hit_01.yy",},
     {"name":"sfx_crowd_murmur_loop","order":4,"path":"sounds/sfx_crowd_murmur_loop/sfx_crowd_murmur_loop.yy",},
->>>>>>> Stashed changes
+    {"name":"oMenuItemBase","order":2,"path":"objects/oMenuItemBase/oMenuItemBase.yy",},
+    {"name":"sMenuButtonExitGameOff","order":3,"path":"sprites/sMenuButtonExitGameOff/sMenuButtonExitGameOff.yy",},
   ],
 }
