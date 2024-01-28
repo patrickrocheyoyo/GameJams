@@ -30,3 +30,4 @@ else{
 	draw_text(x + 32, y, text);
 	draw_sprite_ext(sArrowRight, 0, right_arrow_x, right_arrow_y, 1.0, 1.0, 0, c_white, 0.5);
 }
+draw_set_color(c_white);

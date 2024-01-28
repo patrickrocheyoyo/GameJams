@@ -30,3 +30,4 @@ draw_rectangle(
 	false);
 
 draw_sprite_ext(sAudienceMeter, 0, AM_X, AM_Y, AM_SCALE, AM_SCALE, 0, c_white, 1.0);
+draw_set_color(c_white);
