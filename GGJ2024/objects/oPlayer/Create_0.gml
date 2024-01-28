@@ -7,6 +7,9 @@ image_angle_multiplier = 0.2;
 deltax = 0;
 deltay = 0;
 
+image_xscale = 0.5;
+image_yscale = 0.5;
+
 
 velx = 0;
 vely = 0;
