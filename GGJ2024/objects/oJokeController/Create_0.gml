@@ -7,7 +7,7 @@ frame = 0;
 numjokescorrect = 0;
 
 global.JokeController = id;
-
+numjokesneeded=10;
 
 switch(room)
 {
@@ -15,6 +15,7 @@ switch(room)
 		global.AllJokes = array_shuffle(global.AllJokes);
 		global.JokeIndex = 0;
 		jokes = global.AllJokes;
+		numjokesneeded=4;
 		break;
 		default:
 	case GameRoom3:

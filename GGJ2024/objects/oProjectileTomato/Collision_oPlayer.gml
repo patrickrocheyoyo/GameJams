@@ -6,4 +6,5 @@ if(state != eState.Landed)
 	instance_create_depth(0, 0, -100, oTomatoSplat);
 }
 
+
 event_inherited();
