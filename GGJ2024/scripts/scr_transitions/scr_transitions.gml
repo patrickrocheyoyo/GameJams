@@ -1,8 +1,7 @@
 function CreateTransition(_target_room)
 {
 	
-	if(instance_exists(oSeqHandler))
-		return;
+	
 	
 	var _layer_name = "CurtainCall";
 	var _layer_depth = -1000;
@@ -42,6 +41,9 @@ function CreateTransition(_target_room)
 	{
 		layer_create(_layer_depth, _layer_name);
 	}
+	
+	if(instance_exists(oSeqHandler))
+		return;
 	
 	object_set_persistent(oSeqHandler, true);
 	var _new_out = instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), _layer_name, oSeqHandler);
