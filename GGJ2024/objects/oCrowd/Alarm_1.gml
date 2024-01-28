@@ -46,7 +46,7 @@ if(len>0)
 	
 	var pclass = projectiles[@ irandom(array_length(projectiles) - 1)];
 	
-	var inst = instance_create_layer(x,y,"Instances",pclass, {
+	var inst = instance_create_layer(x,y,"Projectiles",pclass, {
 		xtarget: target_x,
 		ytarget: target_y,
 	});
