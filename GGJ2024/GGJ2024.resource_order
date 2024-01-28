@@ -22,6 +22,7 @@
     {"name":"sprBoboImage","order":1,"path":"sprites/sprBoboImage/sprBoboImage.yy",},
     {"name":"sprInstructionBg","order":3,"path":"sprites/sprInstructionBg/sprInstructionBg.yy",},
     {"name":"angry_crowd_2","order":7,"path":"sounds/angry_crowd_2/angry_crowd_2.yy",},
+    {"name":"oSettingsVolume","order":1,"path":"objects/oSettingsVolume/oSettingsVolume.yy",},
     {"name":"s_touchinput","order":1,"path":"sprites/s_touchinput/s_touchinput.yy",},
     {"name":"sprTrail","order":4,"path":"sprites/sprTrail/sprTrail.yy",},
     {"name":"sqInputDrag","order":5,"path":"sequences/sqInputDrag/sqInputDrag.yy",},
