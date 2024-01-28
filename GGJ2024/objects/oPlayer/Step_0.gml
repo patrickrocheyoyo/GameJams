@@ -87,7 +87,7 @@ else{
 	}
 
 
-	if(os_type==os_windows)
+	//if(os_type==os_windows)
 	{
 		
 		padinput = true;
