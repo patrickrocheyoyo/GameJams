@@ -27,9 +27,9 @@ else{
 	
 	switch(os_type)
 	{
-		case os_windows:
-			pressed = true;//mouse_check_button_pressed(mb_none); //don't really understand why this works on pc but it does...
-			break;
+	//	case os_windows:
+	//		pressed = true;//mouse_check_button_pressed(mb_none); //don't really understand why this works on pc but it does...
+	//		break;
 		default:
 			pressed = mouse_check_button(mb_left);
 			break;
@@ -90,34 +90,33 @@ else{
 	//if(os_type==os_windows)
 	{
 		
-		padinput = true;
-	
-		padshotx =0;
-		padshoty =0;
-	
-		if(keyboard_check(vk_left))
-			padshotx = -1;
-		if(keyboard_check(vk_right))
-			padshotx =1.0;
-		
-		if(keyboard_check(vk_up))
-			padshoty=-1;
-		if(keyboard_check(vk_down))
-			padshoty=1;
 
-		if((padshotx!=0) || (padshoty!=0))
-			padshooting = true;
+	
+
+
 
 
 		if(keyboard_check(ord("A")))
+		{
 			deltax = -1*global.joysticksensitivity;;
+					padinput = true;
+		}
 		if(keyboard_check(ord("D")))
+		{
 			deltax =1.0*global.joysticksensitivity;;
+					padinput = true;
+		}
 		
 		if(keyboard_check(ord("W")))
+		{
 			deltay=-1*global.joysticksensitivity;;
+					padinput = true;
+		}
 		if(keyboard_check(ord("S")))
-			deltay=1*global.joysticksensitivity;;
+		{
+			deltay=1*global.joysticksensitivity;
+					padinput = true;
+		}
 	}
 	if(pressed && (! padinput))
 	{

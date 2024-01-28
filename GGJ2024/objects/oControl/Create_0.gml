@@ -7,7 +7,7 @@ randomize();
 global.Controller = id;
 
 
-global.touchsensitivity = 1.25;
+global.touchsensitivity = 0.7;
 global.joysticksensitivity = 10;
 global.deadzonevalue = 0.15
 
