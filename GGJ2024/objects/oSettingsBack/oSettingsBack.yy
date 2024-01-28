@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oMenuButtonJokeBook",
+  "name": "oSettingsBack",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
   ],
@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuButtonBase","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"propertyId":{"name":"active_sprite_index","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"value":"sMenuButtonJokeBookOff",},
   ],
   "parent": {
-    "name": "Main Menu",
-    "path": "folders/Objects/UI/Main Menu.yy",
+    "name": "Settings",
+    "path": "folders/Objects/UI/Settings.yy",
   },
   "parentObjectId": {
     "name": "oMenuButtonBase",

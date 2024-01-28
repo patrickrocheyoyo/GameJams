@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 menu_item_active = false;
+menu_item_activated_this_frame = false;
 
 function get_all_items()
 {
