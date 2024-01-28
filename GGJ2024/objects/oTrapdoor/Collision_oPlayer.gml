@@ -10,9 +10,9 @@ if(image_index ==1)
 	
 	
 	if(room == GameRoom1)
-		room_goto(GameRoom2);
+		CreateTransition(GameRoom2);
 	else
-		room_goto(PostGameRoom);
+		CreateTransition(PostGameRoom);
 	
 }
 

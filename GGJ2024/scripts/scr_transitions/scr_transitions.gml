@@ -1,5 +1,9 @@
 function CreateTransition(_target_room)
 {
+	
+	if(instance_exists(oSeqHandler))
+		return;
+	
 	var _layer_name = "CurtainCall";
 	var _layer_depth = -1000;
 	

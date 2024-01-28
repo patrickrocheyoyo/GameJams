@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"sGreenBack","order":1,"path":"sprites/sGreenBack/sGreenBack.yy",},
+  ],
 }
