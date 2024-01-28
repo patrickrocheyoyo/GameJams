@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuButtonBase","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"propertyId":{"name":"active_sprite_index","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"value":"sMenuButtonJokeBookOff",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuButtonBase","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"propertyId":{"name":"active_sprite_index","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"value":"sMenuButtonSettingsOn",},
   ],
   "parent": {
     "name": "Main Menu",
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sMenuButtonJokeBookOff",
-    "path": "sprites/sMenuButtonJokeBookOff/sMenuButtonJokeBookOff.yy",
+    "name": "sMenuButtonSettingsOff",
+    "path": "sprites/sMenuButtonSettingsOff/sMenuButtonSettingsOff.yy",
   },
   "spriteMaskId": null,
   "visible": true,
