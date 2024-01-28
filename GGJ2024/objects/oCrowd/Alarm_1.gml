@@ -7,6 +7,12 @@ var EXCLUSION_ZONE = 128;
 var px = global.Player.x;
 var py = global.Player.y;
 
+var offx = px-x;
+var offy = py-y;
+
+px += offx/5;
+py += offy/5;
+
 /* Pick a target spot near the player, where we will aim the projectile to land. */
 var target_x = px + random_range(-ACCURACY_TOLERANCE, ACCURACY_TOLERANCE);
 var target_y = py + random_range(-ACCURACY_TOLERANCE, ACCURACY_TOLERANCE);
@@ -51,4 +57,4 @@ if(len>0)
 	
 }
 
-alarm[1] = irandom(1024);
+alarm[1] = global.Player.audience_happiness*5 +irandom(1024);

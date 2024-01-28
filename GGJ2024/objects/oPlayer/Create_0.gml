@@ -24,7 +24,7 @@ last_mouse_y = -1;
 
 slip_frames = 0;
 
-health=100;
+audience_happiness=100;
 is_dead = false;
 
 global.Player = id;

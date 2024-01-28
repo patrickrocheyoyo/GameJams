@@ -19,7 +19,7 @@ if(instance_find(oSeqHandler, 0) != noone)
 	exit;
 }
 
-var bar_offset = BAR_H * (1.0 - (health / 100));
+var bar_offset = BAR_H * (1.0 - (audience_happiness / 100));
 
 draw_set_color(#47a43b);
 draw_rectangle(
