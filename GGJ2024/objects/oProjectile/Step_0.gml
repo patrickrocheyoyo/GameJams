@@ -29,6 +29,8 @@ if(new_dist_to_target >= old_dist_to_target)
 		state = eState.Landed;
 		landedcount=0;
 		sprite_index = sImpact;
+		
+		//audio_play_sound(Slime_explosion_with_build_up_1, 1, false, 1.0);
 	 }
 
 	
