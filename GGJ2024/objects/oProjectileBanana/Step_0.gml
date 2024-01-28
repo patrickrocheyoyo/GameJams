@@ -4,10 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-sprite_index = sProjectileBanana;
+
 
 if(state!=eState.Landed)
 	image_angle +=spin;
 
-if(landedcount>90)
+if(landedcount>90 || slipped)
 	instance_destroy(self);
