@@ -164,11 +164,14 @@ else{
 	var new_x = x + velx;
 	var new_y = y + vely;
 
-	if(instance_place(new_x, new_y, oStageArea) != noone)
+	var inst = instance_position(new_x, new_y+60, oStageArea);
+
+	if(inst != noone)
 	{
 		x = new_x;
 		y = new_y;
 	}
+
 	
 
 	
