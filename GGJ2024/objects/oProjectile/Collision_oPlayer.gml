@@ -18,7 +18,7 @@ if(state != eState.Landed)
 		oPlayer.is_dead = true;
 		
 		CreateTransition(PostGameRoom);
-		var _death_sound = audio_play_sound(sfx_hero_die_fall_01, 1, false, 1.0);
+		var _death_sound = audio_play_sound(sfx_hero_death_edited, 1, false, 1.0);
 	}
 }
 
