@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuButtonBase","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"propertyId":{"name":"active_sprite_index","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"value":"sMenuButtonJokeBookOff",},
   ],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Main Menu",
+    "path": "folders/Objects/UI/Main Menu.yy",
   },
   "parentObjectId": {
     "name": "oMenuButtonBase",

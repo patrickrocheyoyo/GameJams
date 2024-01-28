@@ -206,6 +206,14 @@ if(fimage_angle<0)
 	fimage_angle+=360;
 else if(fimage_angle>=360)
 	fimage_angle -= 360;
+	
+if (velx != 0 || vely != 0)
+{
+	if (!audio_is_playing(footstep_sfx))
+	{
+		footstep_sfx = audio_play_sound(choose(footstep_1, footstep_2, footstep_3), 1, false, random_range(0.25, 0.35), 0, random_range(0.9, 1.1));	
+	}
+}
 
 
 

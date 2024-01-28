@@ -4,6 +4,11 @@
 var first_item = get_first_item();
 var active_item = get_active_menu_item();
 
+if(!is_undefined(active_item) && active_item.menu_item_activated_this_frame)
+{
+	exit;
+}
+
 if(id == active_item)
 {
 	var next_item = get_next_item();

@@ -8,6 +8,9 @@ if(correct)
 	save_jokes();
 	
 	global.JokeController.numjokescorrect++;
+
+	var _reaction_sound = audio_play_sound(crowd_laughter_edited_2, 1, false, 1.0);
+	audio_sound_gain(_reaction_sound, 0.0, 3000);
 	
 	global.Player.audience_happiness +=20;
 	
@@ -28,6 +31,8 @@ if(correct)
 }
 else
 {
+	var _reaction_sound = audio_play_sound(choose(angry_crowd_1, angry_crowd_2, angry_crowd_3), 1, false, 1.0);
+	audio_sound_gain(_reaction_sound, 0.0, 3000);
 	//do bad stuff
 	global.Player.audience_happiness -=20;
 	

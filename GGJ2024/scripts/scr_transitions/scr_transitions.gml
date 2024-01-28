@@ -1,8 +1,5 @@
 function CreateTransition(_target_room)
 {
-	
-	
-	
 	var _layer_name = "CurtainCall";
 	var _layer_depth = -1000;
 	
@@ -19,6 +16,7 @@ function CreateTransition(_target_room)
 				layer_create(_ld, _ln);
 			}
 			
+			var _curtain_in_sound = audio_play_sound(curtain_open, 1.0, false, 0.1);
 			var _new_in = instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), _ln, oSeqHandler);
 			_new_in.create_seq(seq_stage_transition_out, _ln);
 			
@@ -46,6 +44,7 @@ function CreateTransition(_target_room)
 		return;
 	
 	object_set_persistent(oSeqHandler, true);
+	var _curtain_out_sound = audio_play_sound(curtain_close, 1.0, false, 0.1);
 	var _new_out = instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), _layer_name, oSeqHandler);
 	_new_out.create_seq(seq_stage_transition_in, _layer_name);
 	

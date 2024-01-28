@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Joke Book",
+    "path": "folders/Objects/UI/Joke Book.yy",
   },
   "parentObjectId": null,
   "persistent": false,
