@@ -35,8 +35,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sProjectile",
-    "path": "sprites/sProjectile/sProjectile.yy",
+    "name": "sTomato",
+    "path": "sprites/sTomato/sTomato.yy",
   },
   "spriteMaskId": null,
   "visible": true,

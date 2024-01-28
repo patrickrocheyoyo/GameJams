@@ -41,7 +41,29 @@ if(len>0)
 	
 	var projectiles = [
 		oProjectileBanana,
+		oProjectileBanana,
+		oProjectileBanana,
+		oProjectileBanana,
+		oProjectileBanana,
+		oProjectileBanana,
 		oProjectileTomato,
+		oProjectileTomato,
+		oProjectileTomato,
+		oProjectileTomato,
+		oProjectileTomato,
+		oProjectileTomato,
+		oProjectileTomato,
+		oProjectileSnowglobe,
+		oProjectileBottle,
+		oProjectileBrick,
+		oProjectileCrab,
+		oProjectileAxe,
+		oProjectileFish,
+		oProjectileGlass,
+		oProjectileHighheel,
+		oProjectileKnife,
+		oProjectileShoe,
+		oProjectileSkull,
 	];
 	
 	var pclass = projectiles[@ irandom(array_length(projectiles) - 1)];

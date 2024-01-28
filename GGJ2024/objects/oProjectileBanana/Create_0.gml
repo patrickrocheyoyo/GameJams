@@ -14,3 +14,5 @@ smear_y2 = undefined;
 
 
 spin = irandom(8)-4;
+
+end_sprite_anim = sBananaSplit;
