@@ -10,6 +10,7 @@
     {"name":"inst_JokeBook","path":"rooms/JokeBookRoom/JokeBookRoom.yy",},
     {"name":"inst_JokeBookNext","path":"rooms/JokeBookRoom/JokeBookRoom.yy",},
     {"name":"inst_JokeBookPrev","path":"rooms/JokeBookRoom/JokeBookRoom.yy",},
+    {"name":"inst_3F786439","path":"rooms/JokeBookRoom/JokeBookRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -17,8 +18,12 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_JokeBook","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oJokeBook","path":"objects/oJokeBook/oJokeBook.yy",},"properties":[],"rotation":0.0,"scaleX":1.0017805,"scaleY":1.0017804,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_JokeBookNext","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oJokeBookNext","path":"objects/oJokeBookNext/oJokeBookNext.yy",},"properties":[],"rotation":0.0,"scaleX":1.3357073,"scaleY":1.3357072,"x":1453.2495,"y":897.5952,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_JokeBookPrev","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oJokeBookPrev","path":"objects/oJokeBookPrev/oJokeBookPrev.yy",},"properties":[],"rotation":0.0,"scaleX":1.3357073,"scaleY":1.3357072,"x":341.94107,"y":897.5952,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F786439","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSettingsBack","path":"objects/oSettingsBack/oSettingsBack.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3DD58822","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sIKidBackground","path":"sprites/sIKidBackground/sIKidBackground.yy",},"x":0.0,"y":0.0,},
+      ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",
