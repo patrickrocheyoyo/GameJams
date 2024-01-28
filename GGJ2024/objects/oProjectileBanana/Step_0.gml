@@ -5,3 +5,7 @@
 event_inherited();
 
 sprite_index = sProjectileBanana;
+
+
+if(landedcount>90)
+	instance_destroy(self);

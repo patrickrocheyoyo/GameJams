@@ -9,5 +9,5 @@ if(state == eState.Flying)
 
 draw_self();
 
-draw_set_color(c_red);
-draw_text(xtarget, ytarget, "X");
+//draw_set_color(c_red);
+//draw_text(xtarget, ytarget, "X");

@@ -1,8 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(instance_exists(oSeqHandler)) //Don't spawn jokes as we're transitioning
+	return;
+
 if(!instance_exists(oJokeHandler))
 	frame++;
+	
+	
+		
+
 
 if(frame==jokes[curjoke].time)
 {
