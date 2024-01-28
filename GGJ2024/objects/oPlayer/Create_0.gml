@@ -3,7 +3,7 @@
 
 image_angle_multiplier = 0.2;
 
-
+fimage_angle = 0;
 deltax = 0;
 deltay = 0;
 

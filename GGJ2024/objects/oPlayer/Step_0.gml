@@ -190,22 +190,22 @@ if(targimage_angle<0)
 	targimage_angle +=360;
 	
 
-if(abs(targimage_angle-image_angle)>180)
+if(abs(targimage_angle-fimage_angle)>180)
 {
-	if(targimage_angle<image_angle)
+	if(targimage_angle<fimage_angle)
 		targimage_angle+=360;
 	
-	if(targimage_angle>image_angle)
+	if(targimage_angle>fimage_angle)
 		targimage_angle-=360;
 }
 
 	
-image_angle = image_angle+(targimage_angle-image_angle)*image_angle_multiplier;
+fimage_angle = fimage_angle+(targimage_angle-fimage_angle)*image_angle_multiplier;
 
-if(image_angle<0)
-	image_angle+=360;
-else if(image_angle>=360)
-	image_angle -= 360;
+if(fimage_angle<0)
+	fimage_angle+=360;
+else if(fimage_angle>=360)
+	fimage_angle -= 360;
 
 
 
