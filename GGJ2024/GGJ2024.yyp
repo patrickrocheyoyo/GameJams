@@ -75,6 +75,7 @@
     {"id":{"name":"oStageArea","path":"objects/oStageArea/oStageArea.yy",},},
     {"id":{"name":"oMenuItemBase","path":"objects/oMenuItemBase/oMenuItemBase.yy",},},
     {"id":{"name":"seq_stage_transition_in","path":"sequences/seq_stage_transition_in/seq_stage_transition_in.yy",},},
+    {"id":{"name":"sAudienceMeter","path":"sprites/sAudienceMeter/sAudienceMeter.yy",},},
     {"id":{"name":"sPlayerBody","path":"sprites/sPlayerBody/sPlayerBody.yy",},},
     {"id":{"name":"oJokeBookPrev","path":"objects/oJokeBookPrev/oJokeBookPrev.yy",},},
     {"id":{"name":"oSeqHandler","path":"objects/oSeqHandler/oSeqHandler.yy",},},
