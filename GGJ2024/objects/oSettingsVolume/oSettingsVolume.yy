@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oSettingsTest",
+  "name": "oSettingsVolume",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -9,7 +9,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuButtonBase","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"propertyId":{"name":"active_sprite_index","path":"objects/oMenuButtonBase/oMenuButtonBase.yy",},"value":"sMenuButtonStartGameOn",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuSelectBase","path":"objects/oMenuSelectBase/oMenuSelectBase.yy",},"propertyId":{"name":"label","path":"objects/oMenuSelectBase/oMenuSelectBase.yy",},"value":"Test setting",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oMenuSelectBase","path":"objects/oMenuSelectBase/oMenuSelectBase.yy",},"propertyId":{"name":"label","path":"objects/oMenuSelectBase/oMenuSelectBase.yy",},"value":"Audio volume",},
   ],
   "parent": {
     "name": "Settings",
