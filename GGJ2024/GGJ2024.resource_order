@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings": [
-    {"name":"Stage","order":1,"path":"folders/Sprites/Stage.yy",},
     {"name":"InstructionMenu","order":1,"path":"folders/InstructionMenu.yy",},
     {"name":"Images","order":1,"path":"folders/InstructionMenu/Images.yy",},
     {"name":"InputSprites","order":2,"path":"folders/InstructionMenu/InputSprites.yy",},
@@ -8,6 +7,7 @@
     {"name":"Joke Book","order":2,"path":"folders/Objects/UI/Joke Book.yy",},
     {"name":"Main Menu","order":1,"path":"folders/Objects/UI/Main Menu.yy",},
     {"name":"Settings","order":3,"path":"folders/Objects/UI/Settings.yy",},
+    {"name":"Stage","order":1,"path":"folders/Sprites/Stage.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"curtain_close","order":2,"path":"sounds/curtain_close/curtain_close.yy",},
