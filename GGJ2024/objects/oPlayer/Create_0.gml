@@ -24,7 +24,7 @@ last_mouse_y = -1;
 
 slip_frames = 0;
 
-health=100;
+audience_happiness=100;
 is_dead = false;
 
 global.Player = id;
@@ -45,14 +45,14 @@ if(variable_global_exists("music_level"))
 	{
 		global.music_level = audio_play_sound(snd_level_music_edited, 10, true);
 		audio_sound_gain(global.music_level, 0, 0);
-		audio_sound_gain(global.music_level, 1.0, 1000);
+		audio_sound_gain(global.music_level, 0.7, 1000);
 	}
 }
 else
 {
 	global.music_level = audio_play_sound(snd_level_music_edited, 10, true);
 	audio_sound_gain(global.music_level, 0, 0);
-	audio_sound_gain(global.music_level, 1.0, 1000);
+	audio_sound_gain(global.music_level, 0.7, 1000);
 }
 
 
