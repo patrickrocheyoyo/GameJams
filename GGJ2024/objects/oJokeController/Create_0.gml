@@ -11,7 +11,7 @@ switch(room)
 		jokes = global.Room1Jokes;
 		break;
 		default:
-	case GameRoom2:
+	case GameRoom3:
 		jokes = global.Room2Jokes;
 		break;
 }

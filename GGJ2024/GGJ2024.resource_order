@@ -1,35 +1,7 @@
 {
-  "FolderOrderSettings": [
-    {"name":"UI","order":4,"path":"folders/Objects/UI.yy",},
-    {"name":"UI","order":2,"path":"folders/Sprites/UI.yy",},
-  ],
-  "ResourceOrderSettings": [
-    {"name":"oMenuButtonJokeBook","order":7,"path":"objects/oMenuButtonJokeBook/oMenuButtonJokeBook.yy",},
-    {"name":"sMenuButtonJokeBookOff","order":9,"path":"sprites/sMenuButtonJokeBookOff/sMenuButtonJokeBookOff.yy",},
-    {"name":"sMenuButtonStartGameOff","order":1,"path":"sprites/sMenuButtonStartGameOff/sMenuButtonStartGameOff.yy",},
-    {"name":"oMenuButtonExitGame","order":3,"path":"objects/oMenuButtonExitGame/oMenuButtonExitGame.yy",},
-    {"name":"sJokeBookPrevOn","order":8,"path":"sprites/sJokeBookPrevOn/sJokeBookPrevOn.yy",},
-    {"name":"oMenuButtonStartGame","order":1,"path":"objects/oMenuButtonStartGame/oMenuButtonStartGame.yy",},
-    {"name":"sMenuButtonExitGameOn","order":2,"path":"sprites/sMenuButtonExitGameOn/sMenuButtonExitGameOn.yy",},
-    {"name":"sJokeBookPrevOff","order":7,"path":"sprites/sJokeBookPrevOff/sJokeBookPrevOff.yy",},
-    {"name":"JokeBookRoom","order":1,"path":"rooms/JokeBookRoom/JokeBookRoom.yy",},
-    {"name":"sGreenBack","order":1,"path":"sprites/sGreenBack/sGreenBack.yy",},
-    {"name":"oMenuItemBase","order":2,"path":"objects/oMenuItemBase/oMenuItemBase.yy",},
-    {"name":"sPlayerBody","order":1,"path":"sprites/sPlayerBody/sPlayerBody.yy",},
-    {"name":"oJokeBookPrev","order":5,"path":"objects/oJokeBookPrev/oJokeBookPrev.yy",},
-    {"name":"sCrowdBack","order":3,"path":"sprites/sCrowdBack/sCrowdBack.yy",},
-    {"name":"siKid","order":4,"path":"sprites/siKid/siKid.yy",},
-    {"name":"sJokeBookNextOn","order":6,"path":"sprites/sJokeBookNextOn/sJokeBookNextOn.yy",},
-    {"name":"sJokeBookNextOff","order":5,"path":"sprites/sJokeBookNextOff/sJokeBookNextOff.yy",},
-    {"name":"sCrowdSide","order":4,"path":"sprites/sCrowdSide/sCrowdSide.yy",},
-    {"name":"oJokeBookNext","order":6,"path":"objects/oJokeBookNext/oJokeBookNext.yy",},
-    {"name":"sPlayerHead","order":2,"path":"sprites/sPlayerHead/sPlayerHead.yy",},
-    {"name":"oJokeBook","order":4,"path":"objects/oJokeBook/oJokeBook.yy",},
-    {"name":"sMenuButtonExitGameOff","order":3,"path":"sprites/sMenuButtonExitGameOff/sMenuButtonExitGameOff.yy",},
-  ],
-}
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"snd_level_music_edited","order":1,"path":"sounds/snd_level_music_edited/snd_level_music_edited.yy",},
+    {"name":"GameRoom3","order":1,"path":"rooms/GameRoom3/GameRoom3.yy",},
+    {"name":"oCrowdBack","order":1,"path":"objects/oCrowdBack/oCrowdBack.yy",},
   ],
 }

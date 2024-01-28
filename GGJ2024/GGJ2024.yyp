@@ -78,6 +78,7 @@
     {"id":{"name":"sPlayerBody","path":"sprites/sPlayerBody/sPlayerBody.yy",},},
     {"id":{"name":"oJokeBookPrev","path":"objects/oJokeBookPrev/oJokeBookPrev.yy",},},
     {"id":{"name":"oSeqHandler","path":"objects/oSeqHandler/oSeqHandler.yy",},},
+    {"id":{"name":"GameRoom3","path":"rooms/GameRoom3/GameRoom3.yy",},},
     {"id":{"name":"sFloorTile","path":"sprites/sFloorTile/sFloorTile.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"oProjectileTomato","path":"objects/oProjectileTomato/oProjectileTomato.yy",},},
@@ -86,6 +87,7 @@
     {"id":{"name":"sMenuButtonStartGameOn","path":"sprites/sMenuButtonStartGameOn/sMenuButtonStartGameOn.yy",},},
     {"id":{"name":"oPostGameController","path":"objects/oPostGameController/oPostGameController.yy",},},
     {"id":{"name":"oCameraTracker","path":"objects/oCameraTracker/oCameraTracker.yy",},},
+    {"id":{"name":"oCrowdBack","path":"objects/oCrowdBack/oCrowdBack.yy",},},
     {"id":{"name":"sJokeBookNextOn","path":"sprites/sJokeBookNextOn/sJokeBookNextOn.yy",},},
     {"id":{"name":"PostGameRoom","path":"rooms/PostGameRoom/PostGameRoom.yy",},},
     {"id":{"name":"sfx_hero_hit_02","path":"sounds/sfx_hero_hit_02/sfx_hero_hit_02.yy",},},
@@ -130,6 +132,7 @@
     {"roomId":{"name":"GameRoom2","path":"rooms/GameRoom2/GameRoom2.yy",},},
     {"roomId":{"name":"PostGameRoom","path":"rooms/PostGameRoom/PostGameRoom.yy",},},
     {"roomId":{"name":"JokeBookRoom","path":"rooms/JokeBookRoom/JokeBookRoom.yy",},},
+    {"roomId":{"name":"GameRoom3","path":"rooms/GameRoom3/GameRoom3.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
