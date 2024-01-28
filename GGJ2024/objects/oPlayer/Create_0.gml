@@ -25,8 +25,11 @@ last_mouse_y = -1;
 slip_frames = 0;
 
 health=100;
+is_dead = false;
 
 global.Player = id;
+
+footstep_sfx = -1;
 
 if(variable_global_exists("music_menu"))
 {
