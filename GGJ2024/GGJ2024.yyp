@@ -55,6 +55,7 @@
     {"id":{"name":"oMenuButtonExitGame","path":"objects/oMenuButtonExitGame/oMenuButtonExitGame.yy",},},
     {"id":{"name":"sJokeBookPrevOn","path":"sprites/sJokeBookPrevOn/sJokeBookPrevOn.yy",},},
     {"id":{"name":"sProjectileBanana","path":"sprites/sProjectileBanana/sProjectileBanana.yy",},},
+    {"id":{"name":"oAmbientCrowdSide","path":"objects/oAmbientCrowdSide/oAmbientCrowdSide.yy",},},
     {"id":{"name":"oMenuButtonStartGame","path":"objects/oMenuButtonStartGame/oMenuButtonStartGame.yy",},},
     {"id":{"name":"oJokeHandler","path":"objects/oJokeHandler/oJokeHandler.yy",},},
     {"id":{"name":"Keyboard_Click_1","path":"sounds/Keyboard_Click_1/Keyboard_Click_1.yy",},},
