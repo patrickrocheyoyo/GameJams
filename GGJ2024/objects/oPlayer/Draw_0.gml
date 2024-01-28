@@ -7,8 +7,9 @@ var scale = image_xscale;
 
 if(image_angle<45 || image_angle>315)
 {
+		draw_sprite_ext(sPlayerHead,0,x,y,scale,scale,0,c_white,1);
 	draw_sprite_ext(sPlayerBody,0,x,y+100*scale,scale,scale,0,c_white,1);
-	draw_sprite_ext(sPlayerHead,0,x,y,scale,scale,0,c_white,1);
+
 }
 else if(image_angle<135)
 {

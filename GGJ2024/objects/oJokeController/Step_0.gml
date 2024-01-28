@@ -11,10 +11,10 @@ if(!instance_exists(oJokeHandler))
 		
 
 
-if(frame==jokes[curjoke].time)
+if(frame==jokes[global.JokeIndex].time)
 {
 
-	if(jokes[curjoke].jk == "SpawnTrapdoor")
+	if(global.JokeController.numjokescorrect>=10)
 	{
 		with(oTrapdoor)
 		{
@@ -26,10 +26,10 @@ if(frame==jokes[curjoke].time)
 	{
 
 		var jk= instance_create_layer(0,0,"Instances_1",oJokeHandler);
-		jk.joke = jokes[curjoke].jk;
+		jk.joke = jokes[global.JokeIndex].jk;
 	
 	
-		for(var i=0;i<array_length(jokes[curjoke].punchlines);i++)
+		for(var i=0;i<array_length(jokes[global.JokeIndex].punchlines);i++)
 		{
 			/* Build a list of all stage area objects and their total accumulated area. */
 			
@@ -113,15 +113,19 @@ if(frame==jokes[curjoke].time)
 			}
 		
 			var pl = instance_create_layer(pu_x,pu_y,"Instances_1",oPunchline);
-			pl.joke = jokes[curjoke].jk;
-			pl.punchline = jokes[curjoke].punchlines[i];
+			pl.joke = jokes[global.JokeIndex].jk;
+			pl.punchline = jokes[global.JokeIndex].punchlines[i];
 			pl.correct = i==0?1:0;
 		
 		}
 	
 	}
 	frame = 0;
-	curjoke++;
+	global.JokeIndex++;
+	if(global.JokeIndex>=array_length(jokes))
+	{
+		global.JokeIndex = 0; //Just loop back through them again
+	}
 }
 
 

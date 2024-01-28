@@ -6,6 +6,8 @@ if(correct)
 {
 	record_joke(joke, punchline);
 	save_jokes();
+	
+	global.JokeController.numjokescorrect++;
 }
 else
 {
