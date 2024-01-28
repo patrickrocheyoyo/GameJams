@@ -26,7 +26,7 @@ if(mouse_over_left_arrow() || mouse_over_right_arrow())
 }
 else if(menu_item_active && (mouse_x != last_mouse_x || mouse_y != last_mouse_y))
 {
-	menu_item_deactivate();
+	// menu_item_deactivate();
 }
 
 last_mouse_x = mouse_x;

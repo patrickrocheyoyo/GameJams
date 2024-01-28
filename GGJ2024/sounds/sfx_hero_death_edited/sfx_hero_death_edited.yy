@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_hero_die_fall_01",
+  "name": "sfx_hero_death_edited",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.584,
+  "duration": 2.821208,
   "parent": {
-    "name": "ggjsounds",
-    "path": "folders/Sounds/ggjsounds.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_hero_die_fall_01.mp3",
+  "soundFile": "sfx_hero_death_edited.mp3",
   "type": 0,
   "volume": 1.0,
 }

@@ -36,10 +36,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"label","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "sPixel",
-    "path": "sprites/sPixel/sPixel.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
