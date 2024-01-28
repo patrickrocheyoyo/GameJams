@@ -129,6 +129,7 @@
     {"id":{"name":"sJokeBookNextOn","path":"sprites/sJokeBookNextOn/sJokeBookNextOn.yy",},},
     {"id":{"name":"PostGameRoom","path":"rooms/PostGameRoom/PostGameRoom.yy",},},
     {"id":{"name":"sfx_hero_hit_02","path":"sounds/sfx_hero_hit_02/sfx_hero_hit_02.yy",},},
+    {"id":{"name":"sStartBlue","path":"sprites/sStartBlue/sStartBlue.yy",},},
     {"id":{"name":"crowd_laughter_edited_2","path":"sounds/crowd_laughter_edited_2/crowd_laughter_edited_2.yy",},},
     {"id":{"name":"sqInstructionMenu","path":"sequences/sqInstructionMenu/sqInstructionMenu.yy",},},
     {"id":{"name":"sCrowd","path":"sprites/sCrowd/sCrowd.yy",},},
