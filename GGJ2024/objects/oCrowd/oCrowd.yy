@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sCrowd",
-    "path": "sprites/sCrowd/sCrowd.yy",
+    "name": "sCrowdSide",
+    "path": "sprites/sCrowdSide/sCrowdSide.yy",
   },
   "spriteMaskId": null,
   "visible": true,

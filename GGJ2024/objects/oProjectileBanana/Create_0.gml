@@ -11,3 +11,6 @@ smear_y1 = undefined;
 smear_x2 = undefined;
 smear_y2 = undefined;
 
+
+
+spin = irandom(8)-4;

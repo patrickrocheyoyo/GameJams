@@ -6,6 +6,8 @@ event_inherited();
 
 sprite_index = sProjectileBanana;
 
+if(state!=eState.Landed)
+	image_angle +=spin;
 
 if(landedcount>90)
 	instance_destroy(self);
