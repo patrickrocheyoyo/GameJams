@@ -14,7 +14,7 @@ if(!instance_exists(oJokeHandler))
 if(frame==jokes[global.JokeIndex].time)
 {
 
-	if(global.JokeController.numjokescorrect>=numjokesneeded)
+	if(numjokescorrect>=numjokesneeded)
 	{
 		with(oTrapdoor)
 		{

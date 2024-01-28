@@ -3,7 +3,6 @@
 
 
 
-
 image_speed=0;
 has_used = false;
 

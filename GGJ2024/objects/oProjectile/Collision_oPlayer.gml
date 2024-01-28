@@ -16,6 +16,7 @@ if(state != eState.Landed)
 	if(other.audience_happiness<0 && !other.is_dead)
 	{
 		other.is_dead = true;
+		global.gameover = true;
 		
 		CreateTransition(PostGameRoom);
 		var _death_sound = audio_play_sound(sfx_hero_death_edited, 1, false, 1.0);

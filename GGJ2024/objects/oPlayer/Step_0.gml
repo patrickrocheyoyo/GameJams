@@ -1,6 +1,11 @@
 /// @description 
 
 
+if(!global.gameover)
+{
+	++global.game_frames;
+}
+
 
 
 

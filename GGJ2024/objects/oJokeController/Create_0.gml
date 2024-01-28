@@ -5,6 +5,7 @@
 frame = 0;
 
 numjokescorrect = 0;
+global.current_streak = 0;
 
 global.JokeController = id;
 numjokesneeded=10;

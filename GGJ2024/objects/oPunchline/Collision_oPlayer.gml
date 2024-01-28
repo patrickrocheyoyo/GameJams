@@ -8,6 +8,9 @@ if(correct)
 	save_jokes();
 	
 	global.JokeController.numjokescorrect++;
+	global.numjokescorrect++;
+	global.current_streak++;
+	global.longest_streak = max(global.longest_streak, global.current_streak);
 
 	var _reaction_sound = audio_play_sound(crowd_laughter_edited_2, 1, false, 1.0);
 	audio_sound_gain(_reaction_sound, 0.0, 3000);
@@ -31,6 +34,9 @@ if(correct)
 }
 else
 {
+	global.numjokesfailed++;
+	global.current_streak = 0;
+	
 	var _reaction_sound = audio_play_sound(choose(angry_crowd_1, angry_crowd_2, angry_crowd_3), 1, false, 1.0);
 	audio_sound_gain(_reaction_sound, 0.0, 3000);
 	//do bad stuff
