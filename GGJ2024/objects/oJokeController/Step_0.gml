@@ -19,6 +19,7 @@ if(frame==jokes[global.JokeIndex].time)
 		with(oTrapdoor)
 		{
 			image_index = 1;
+			var _trapdoor_sound = audio_play_sound(Wooden_Door_Opening_1, 1, false, 0.8);
 		}
 		
 	}

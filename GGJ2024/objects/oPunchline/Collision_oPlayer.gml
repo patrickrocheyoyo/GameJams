@@ -8,10 +8,14 @@ if(correct)
 	save_jokes();
 	
 	global.JokeController.numjokescorrect++;
+
+	var _reaction_sound = audio_play_sound(crowd_laughingwav_14578, 1, false, 0.7);
+	audio_sound_gain(_reaction_sound, 0.0, 3000);
 }
 else
 {
-	//do bad stuff
+	var _reaction_sound = audio_play_sound(angry_mob_loop_6847, 1, false, 0.7);
+	audio_sound_gain(_reaction_sound, 0.0, 3000);
 }
 
 
