@@ -8,9 +8,8 @@ if(image_index ==1)
 	
 	show_debug_message("Go on to next level");
 	
-	
 	if(room == GameRoom1)
-		CreateTransition(GameRoom2);
+		CreateTransition(GameRoom3);
 	else
 		CreateTransition(PostGameRoom);
 	
