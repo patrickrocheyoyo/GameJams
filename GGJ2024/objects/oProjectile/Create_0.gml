@@ -19,6 +19,8 @@ image_yscale = 0.2;
 
 spin =0;
 
+var _throw_sound = audio_play_sound(projectile_throw_edited, 1, false, 0.25, 0, random_range(0.8, 1.2));
+
 
 
 

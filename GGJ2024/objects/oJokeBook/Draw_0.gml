@@ -6,6 +6,9 @@ draw_self();
 draw_set_font(gameFont);
 draw_set_color(c_white);
 
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 var text = "";
 
 var base_idx = current_page * MAX_PER_PAGE;

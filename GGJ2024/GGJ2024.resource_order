@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"projectile_throw_edited","order":2,"path":"sounds/projectile_throw_edited/projectile_throw_edited.yy",},
+    {"name":"snd_projectile_impact","order":1,"path":"sounds/snd_projectile_impact/snd_projectile_impact.yy",},
     {"name":"oAmbientCrowdSide","order":1,"path":"objects/oAmbientCrowdSide/oAmbientCrowdSide.yy",},
   "FolderOrderSettings": [
     {"name":"UI","order":4,"path":"folders/Objects/UI.yy",},
