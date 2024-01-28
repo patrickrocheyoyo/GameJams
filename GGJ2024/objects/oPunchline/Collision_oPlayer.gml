@@ -9,12 +9,12 @@ if(correct)
 	
 	global.JokeController.numjokescorrect++;
 
-	var _reaction_sound = audio_play_sound(crowd_laughingwav_14578, 1, false, 0.7);
+	var _reaction_sound = audio_play_sound(crowd_laughter_edited_2, 1, false, 1.0);
 	audio_sound_gain(_reaction_sound, 0.0, 3000);
 }
 else
 {
-	var _reaction_sound = audio_play_sound(angry_mob_loop_6847, 1, false, 0.7);
+	var _reaction_sound = audio_play_sound(choose(angry_crowd_1, angry_crowd_2, angry_crowd_3), 1, false, 1.0);
 	audio_sound_gain(_reaction_sound, 0.0, 3000);
 }
 

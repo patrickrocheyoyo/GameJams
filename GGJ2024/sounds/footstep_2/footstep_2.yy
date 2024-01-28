@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "angry_mob_loop_6847",
+  "name": "footstep_2",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 11.904,
+  "duration": 0.862042,
   "parent": {
-    "name": "ggjsounds",
-    "path": "folders/Sounds/ggjsounds.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "angry_mob_loop_6847.mp3",
+  "soundFile": "footstep_2.mp3",
   "type": 0,
   "volume": 1.0,
 }
