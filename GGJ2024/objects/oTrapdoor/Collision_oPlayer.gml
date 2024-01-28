@@ -12,7 +12,7 @@ if(image_index ==1 && !has_used)
 	audio_sound_gain(_applause_sound, 0.0, 3000);
 	
 	if(room == GameRoom1)
-		CreateTransition(GameRoom2);
+		CreateTransition(GameRoom3);
 	else
 		CreateTransition(PostGameRoom);
 	

@@ -21,4 +21,3 @@ image_index = irandom(100);
 
 
 
-
