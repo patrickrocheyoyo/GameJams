@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sProjectileBanana",
-    "path": "sprites/sProjectileBanana/sProjectileBanana.yy",
+    "name": "sBanana",
+    "path": "sprites/sBanana/sBanana.yy",
   },
   "spriteMaskId": null,
   "visible": true,
